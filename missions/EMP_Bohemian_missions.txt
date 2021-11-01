@@ -333,24 +333,12 @@ emp_bohemia_2 = {
 		completed_by = 1457.1.1
 		
 		provinces_to_highlight = {
-			OR = {
-				area = silesia_area
-				area = lower_silesia_area 
-				area = middle_silesia_area 
-			}	
-				NOT = { owned_by = ROOT }
+			area = silesia_area
+			NOT = { owned_by = ROOT }
 		}
 		
 		trigger = {
 			silesia_area = {
-				type = all
-				owned_by = ROOT
-			}
-			lower_silesia_area = {
-				type = all
-				owned_by = ROOT
-			}
-			middle_silesia_area = {
 				type = all
 				owned_by = ROOT
 			}
@@ -1056,7 +1044,7 @@ emp_bohemia_4 = {
 				}
 			}
 			else = {
-				south_saxony_area = {
+				saxony_area = {
 					limit = {
 						NOT = { is_core = ROOT }
 						NOT = {  is_permanent_claim = ROOT }
@@ -1078,7 +1066,7 @@ emp_bohemia_4 = {
 				}
 				AND = {
 					OR = {
-						area = south_saxony_area
+						area = saxony_area
 						area = thuringia_area
 					}
 					NOT = { country_or_non_sovereign_subject_holds = ROOT }
@@ -1089,7 +1077,7 @@ emp_bohemia_4 = {
 			OR = {
 				SAX = { is_subject_of = ROOT }
 				AND = {
-					south_saxony_area = {
+					saxony_area = {
 						type = all
 						country_or_non_sovereign_subject_holds = ROOT
 					}
