@@ -746,7 +746,14 @@ france_expand_south = {
 			}
 		}
 		effect = {
-			upper_rhineland_area = {
+			baden_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			wurttemburg_area = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { owned_by = ROOT }
@@ -759,13 +766,18 @@ france_expand_south = {
 		icon = mission_assemble_an_army
 		required_missions = { subjugate_lorraine }
 		provinces_to_highlight = {
-			area = upper_rhineland_area
+			area = baden_area
+			area = wurttemburg_area
 			NOT = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
 		trigger = {
-			upper_rhineland_area = {
+			baden_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			wurttemburg_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}

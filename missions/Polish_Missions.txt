@@ -743,33 +743,19 @@ polish_missions_slot_3 = {
 				}
 				add_permanent_claim = ROOT
 			}
-			lower_silesia_area = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT	}
-					NOT = { is_core = ROOT	}
-				}
-				add_permanent_claim = ROOT
-			}
 		}
 	}
 	conquer_silesia = { #Updated by C1CK
 		icon = mission_conquer_5_states
 		required_missions = { union_over_hungary_mission }
 		provinces_to_highlight = {
-			OR = {
-				area = silesia_area #Upper Silesia
-				area = lower_silesia_area
-			}
+			area = silesia_area
 			NOT = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
 		trigger = {
-			silesia_area = { #Upper Silesia
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			lower_silesia_area = {
+			silesia_area = { # Silesia
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}

@@ -584,13 +584,13 @@ tr_novgorod_4 = {
 				}
 				add_permanent_claim = ROOT
 			}
-			vychegda_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_permanent_claim = ROOT
-			}
+			#vychegda_area = { #Not sure what to replace that with or if it should be replaced.
+			#	limit = {
+			#		NOT = { is_core = ROOT }
+			#		NOT = { is_permanent_claim = ROOT }
+			#	}
+			#	add_permanent_claim = ROOT
+			#}
 			laponia_area = {
 				limit = {
 					NOT = { is_core = ROOT }
@@ -599,13 +599,6 @@ tr_novgorod_4 = {
 				add_permanent_claim = ROOT
 			}
 			pechora_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_permanent_claim = ROOT
-			}
-			mezen_area = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_permanent_claim = ROOT }
@@ -640,10 +633,9 @@ tr_novgorod_4 = {
 		required_missions = { nov_arkhangelsk }
 		provinces_to_highlight = {
 			OR = {
-				area = vychegda_area
+				#area = vychegda_area
 				area = laponia_area
 				area = pechora_area
-				area = mezen_area
 				area = pomor_area
 				area = arkhangelsk_area
 				area = karelia_area
@@ -660,10 +652,6 @@ tr_novgorod_4 = {
 			1652 = {
 				is_strongest_trade_power = ROOT
 			}
-			nenets_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
 			laponia_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
@@ -675,14 +663,10 @@ tr_novgorod_4 = {
 					is_empty = yes
 				}
 			}
-			mezen_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			vychegda_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
+			#vychegda_area = {
+			#	type = all
+			#	country_or_non_sovereign_subject_holds = ROOT
+			#}
 			pomor_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT

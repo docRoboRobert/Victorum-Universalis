@@ -664,7 +664,7 @@ byz_pp_italian = {
 			}
 			#montferrat_area = {
 			#	type = all
-			""	country_or_non_sovereign_subject_holds = ROOT
+			#	country_or_non_sovereign_subject_holds = ROOT
 			#}
 			upper_emilia_area = {
 				type = all

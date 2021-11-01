@@ -2145,6 +2145,7 @@ labrador_sea_region = {
 	areas = {
 		sea_of_labrador_area
 		baffin_bay_area
+		labrador_basin_area
 	}
 }
 

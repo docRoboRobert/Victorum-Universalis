@@ -894,21 +894,7 @@ spa_reconquista_por = {
 				}
 				add_permanent_claim = ROOT
 			}
-			capitanata_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { owned_by = ROOT }
-				}
-				add_permanent_claim = ROOT
-			}
 			abruzzo_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { owned_by = ROOT }
-				}
-				add_permanent_claim = ROOT
-			}
-			lucania_area = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { owned_by = ROOT }
@@ -950,15 +936,7 @@ spa_reconquista_por = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			capitanata_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
 			abruzzo_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			lucania_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}

@@ -51,13 +51,13 @@ peasants_1 = {
 				}
 				add_permanent_claim = ROOT
 			}
-			#holstein_area = {
-			#	limit = {
-			#		NOT = { is_core = ROOT }
-			#		NOT = { is_permanent_claim = ROOT }
-			#	}
-			#	add_permanent_claim = ROOT
-			#}
+			holstein_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
 			7775 = {
 				if = {
 					limit = {
@@ -111,7 +111,7 @@ peasants_1 = {
 		provinces_to_highlight = {
 			OR = {
 				area = schleswig_area
-				#area = holstein_area
+				area = holstein_area
 				province_id = 7775
 				province_id = 7776
 				province_id = 7777
@@ -125,10 +125,10 @@ peasants_1 = {
 				type = all
 				owned_by = ROOT
 			} 
-			#holstein_area = {
-			#	type = all
-			#	owned_by = ROOT
-			#}
+			holstein_area = {
+				type = all
+				owned_by = ROOT
+			}
 			7775 = { owned_by = ROOT }
 			7776 = { owned_by = ROOT }
 			7777 = { owned_by = ROOT }
@@ -327,18 +327,18 @@ peasants_2 = {
 					}
 					add_permanent_claim = ROOT
 				}
-				#lower_saxony_area = {
-				#	limit = {
-				#		NOT = { is_core = ROOT }
-				#		NOT = { is_permanent_claim = ROOT }
-				#		NOT = {
-				#			owner = {
-				#				alliance_with = ROOT
-				#			}
-				#		}
-				#	}
-				#	add_permanent_claim = ROOT
-				#}
+				lower_saxony_area = {
+					limit = {
+						NOT = { is_core = ROOT }
+						NOT = { is_permanent_claim = ROOT }
+						NOT = {
+							owner = {
+								alliance_with = ROOT
+							}
+						}
+					}
+					add_permanent_claim = ROOT
+				}
 				44 = {
 					if = {
 						limit = {
@@ -418,7 +418,7 @@ peasants_2 = {
 		provinces_to_highlight = {
 			OR = {
 				area = weser_area
-				#area = lower_saxony_area
+				area = lower_saxony_area
 				province_id = 44
 				province_id = 1857
 				province_id = 7810
@@ -443,6 +443,12 @@ peasants_2 = {
 		}
 		effect = {
 			weser_area = {
+				limit = {
+					owned_by = ROOT
+				}
+				add_unrest = -10
+			}
+			lower_saxony_area = {
 				limit = {
 					owned_by = ROOT
 				}
