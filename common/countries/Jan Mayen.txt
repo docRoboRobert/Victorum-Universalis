@@ -39,17 +39,26 @@ historical_units = {
 monarch_names = {
 	"Björn #0" = 1
 	"Bamse #0" = 1
+	"Bearling #0" = 1
+	"Bearnamin #0" = 1
 	"Brum #0" = 1
 	"Brummelisa #0" = -1
 	"Brumma #0" = -1
 	"Nalle-Maja #0" = -1
 	"Grawr #0" = 1
+	"Gilfron #0" = 1
+	"Hrrugrh #0" = 1
 	"Nanuk #0" = 1
 	"Ursus #0" = 1 
 	"Isbjorn #0" = 1 
+	"Ersibion #0" = 1
+	"Whitepaw #0" = 1
 	"Grrrowr #0" = 1 
 	"Grrgrrr #0" = 1
 	"Rawr #0" = 1
+	"Bearnessa #0" = -1
+	"Growlea #0" = -1
+	"Grow-bum #0" = 1
 }
 
 leader_names = {
@@ -57,5 +66,5 @@ leader_names = {
 }
 
 ship_names = {
-	"Jan Mayen" "Fisken" "Björntassen" "Isberget" "Pingvinen" "Gamla Farmor" "Store Skutt" "Björnligan" "Isflaket" "Björntanden" 
+	"Jan Mayen" "Fisken" "Björntassen" "Isberget" "Pingvinen" "Gamla Farmor" "Store Skutt" "Björnligan" "Isflaket" "Björntanden" "Bearboat" "White Paw" "Furdecker" "Grogwwrel" "Beriksson"
 }
