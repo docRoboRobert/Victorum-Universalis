@@ -290,7 +290,6 @@ indonesians_4 = {
 								area = luzon_area
 								area = southern_luzon_area
 								area = mindanao_area
-								area = west_mindanao_area
 								area = visayas_area
 								area = palawan_area
 							}
@@ -300,7 +299,6 @@ indonesians_4 = {
 						area = luzon_area
 						area = southern_luzon_area
 						area = mindanao_area
-						area = west_mindanao_area
 						area = visayas_area
 						area = palawan_area
 					}
@@ -529,7 +527,6 @@ indonesians_4 = {
 								area = luzon_area
 								area = southern_luzon_area
 								area = mindanao_area
-								area = west_mindanao_area
 								area = visayas_area
 								area = palawan_area
 							}
@@ -550,13 +547,6 @@ indonesians_4 = {
 						}
 					}
 					mindanao_area = {
-						type = all
-						OR = {
-							religion = ROOT
-							is_empty = yes
-						}
-					}
-					west_mindanao_area = {
 						type = all
 						OR = {
 							religion = ROOT

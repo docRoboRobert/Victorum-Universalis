@@ -230,6 +230,7 @@ AHE = "countries/Austria_Hungary.txt"
 LES = "countries/Lesbos.txt"
 
 #BT - Holy Orders
+DAM = "countries/Damietta.txt"
 KNT = "countries/KnightsTemplar.txt"
 LTE = "countries/LatinEmpire.txt"
 
@@ -407,6 +408,7 @@ VLG = "countries/Vologda.txt"
 VTN = "countries/Vorotynsk.txt"
 VYA = "countries/Vyatka.txt"
 ZBT = "countries/Zubtsov.txt"
+NRU = "countries/NovgorodRus.txt"
 
 #BT - Scandinavia & Baltics
 GTA = "countries/Gotaland.txt"
@@ -683,6 +685,23 @@ RED = "countries/SussyPirates.txt"
 #YZV = "countries/Waikeri.txt"
 #YZY = "countries/Guanahatabey.txt"
 #RED = "countries/SussyPirates.txt"
+
+#VU - Additions
+CIB = "countries/Ciboney.txt"
+JRA = "countries/Jaragua.txt"
+KLO = "countries/Kalinago.txt"
+LCC = "countries/Lenca.txt"
+PPL = "countries/Pipil.txt"
+TMC = "countries/Timuca.txt"
+AIS = "countries/Ais.txt"
+HGY = "countries/Higuey.txt"
+MRN = "countries/Marien.txt"
+MGA = "countries/Maguana.txt"
+MGU = "countries/Magua.txt"
+SHB = "countries/Carib.txt"
+KRN = "countries/Karina.txt"
+IRI = "countries/Ineri.txt"
+GNU = "countries/Guanahatabeyes.txt"
 
 ###########
 # Oceania #

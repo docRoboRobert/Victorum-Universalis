@@ -5262,6 +5262,18 @@ spriteTypes = {
         name = "GFX_combat_terrain_urban_krasnodar"
         texturefile = "gfx/interface/krasnodar.dds"
     }
+	spriteType = {                                                       
+        name = "GFX_combat_terrain_urban_roschino"
+        texturefile = "gfx/interface/roschino.dds"
+    }
+	spriteType = {                                                       
+        name = "GFX_combat_terrain_urban_guangzhouwan"
+        texturefile = "gfx/interface/guangzhouwan.dds"
+    }
+	spriteType = {                                                       
+        name = "GFX_combat_terrain_urban_nykoping"
+        texturefile = "gfx/interface/nykoping.dds"
+    }
     spriteType = {                                                       
         name = "GFX_combat_terrain_urban_nitra"
         texturefile = "gfx/interface/nitra.dds"

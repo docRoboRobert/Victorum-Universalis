@@ -303,6 +303,62 @@ country_decisions = {
 			REG = { inherit = BET }
 			LBV = { inherit = BAV }
 			HAB = { inherit = BRX }
+			#Indochina
+			KHM = { inherit = DMA }
+			RHA = { inherit = MNN }
+			SUN = { inherit = GLU }
+			BLI = { inherit = SPR }
+			BMA = { inherit = SBW }
+			BEI = { inherit = SGG }
+			SMB = {
+				inherit = SKD 
+				inherit = LDA
+				inherit = STG
+			}
+			MKS = { inherit = SPP }
+			BNE = { inherit = WJO }
+			MAS = { inherit = RMB }
+			PGS = { inherit = IFG }
+			#Japan
+			KKC = {
+				inherit = SGR
+				inherit = ASO
+			}
+			6449 = {
+				add_core = KKC
+				cede_province = KKC
+			}
+			6464 = {
+				add_core = HSK
+				cede_province = HSK
+			}
+			SHN = { inherit = OMR }
+			ITO = { inherit = KHR }
+			OTM = { inherit = TSU }
+			OUC = { inherit = MRI }
+			YMN = { inherit = YSM }
+			HSK = { inherit = MYI }
+			TTI = { inherit = OTI }
+			ASK = { inherit = KYO }
+			SBA = {
+				inherit = TKD
+				inherit = MOG
+			}
+			HTK = { inherit = TGS }
+			UES = { inherit = HNM }
+			CBA = { inherit = STM }
+			DTE = {
+				inherit = ASN 
+				inherit = OSK
+			}
+			5704 = {
+				add_core = DTE
+				cede_province = DTE
+			}
+			RFR = { inherit = KSA }
+			#North Africa
+			MAK = { inherit = HWW }
+			ALO = { inherit = FNJ }
 			}
 		}
 		ai_will_do = {

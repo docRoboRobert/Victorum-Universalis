@@ -192,6 +192,7 @@
  PROV908:0 "Sisíthunwan"
  PROV909:0 "Numakaki"
  PROV910:0 "Tsétsêhéstâhese"            #Ojibwe name Onigamiinsing (Duluth)
+ PROV953:0 "Moyaons"
  PROV971:0 "Penawapskewi"
  PROV972:0 "Mowichat"
  PROV973:0 "S'ólh Téméxw"
@@ -242,6 +243,7 @@
  PROV1110:0 "Agadir"
  PROV1158:0 "Lac"
  PROV1168:0 "Mbengela"
+ PROV1171:0 "Serra Chilengue"
  PROV1172:0 "Ganda a Kawe"
  PROV1174:0 "Tsoakhaub"
  PROV1175:0 "Gariep"
@@ -821,6 +823,7 @@
  #PROV4787:0 "Ribatejo"
  #PROV4788:0 "Plasencia"
  #PROV4789:0 "Segovia"
+ PROV4884:0 "Osyka"
  PROV5267:0 "Beni Suef"
  PROV6924:0 "Île Saint-Louis"
  PROV6925:0 "Upper Thames River"

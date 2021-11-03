@@ -690,6 +690,15 @@ angola_region = {
 		kasai_area
 		kongo_area
 		matamba_area
+		namibe_area
+		hwila_area
+		kwanyama_area
+		ngangela_area
+		moxico_area
+		wambu_area
+		benguela_area
+		bengo_area
+		bailundo_area
 	}
 	monsoon = {
 		00.02.01
@@ -2136,6 +2145,7 @@ labrador_sea_region = {
 	areas = {
 		sea_of_labrador_area
 		baffin_bay_area
+		labrador_basin_area
 	}
 }
 
