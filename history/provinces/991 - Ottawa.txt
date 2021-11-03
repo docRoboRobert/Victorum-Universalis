@@ -1,5 +1,8 @@
 #991 - Nipissing
 
+owner = OTT
+controller = OTT
+add_core = OTT
 culture = algonquin
 religion = totemism
 capital = "Nipissing"
@@ -16,7 +19,6 @@ center_of_trade = 1
 discovered_by = north_american
 
 
-1444.1.1 = { tribal_owner = AGQ }
 1609.1.1 = { discovered_by = FRA } # Samuel de Champlain
 1615.1.1 = { discovered_by = ENG } # Settlement hindered by the Iroquois
 
