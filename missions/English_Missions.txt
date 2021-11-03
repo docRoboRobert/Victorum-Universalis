@@ -702,6 +702,8 @@ eng_slot_3 = {
 
 		provinces_to_highlight = {
 			province_id = 226
+			province_id = 345
+			province_id = 4559
 			NOT = { owned_by = ROOT }
 		}
 
@@ -738,7 +740,7 @@ eng_slot_3 = {
 				name = "eng_rb_gibraltar_mod"
 				duration = -1
 			}
-			226 = {
+			226 = { #Gibraltar
 				add_permanent_claim = ROOT
 			}
 			345 = { #Abda
