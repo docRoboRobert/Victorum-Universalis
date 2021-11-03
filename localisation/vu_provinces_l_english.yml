@@ -1149,6 +1149,7 @@
  PROV5296:0 "Nasibina"
  PROV5297:0 "Barka"
  PROV5298:0 "Zula"
+ PROV5299:0 "Guangzhouwan"
  PROV5300:0 "Malik"
  PROV5301:0 "Selima"
  PROV5302:0 "Abu Hameb"
@@ -1531,7 +1532,7 @@
  PROV5704:0 "Ishinomaki"
  PROV_ADJ5704:0 "Ishinomakian"
  #End Japan Part 1
- PROV5705:0 "AAAAA"
+ PROV5705:0 "Roschino"
  PROV5706:0 "AAAAA"
  PROV5707:0 "AAAAA"
  PROV5708:0 "AAAAA"
