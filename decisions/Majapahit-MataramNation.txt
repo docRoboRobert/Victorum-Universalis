@@ -27,7 +27,7 @@ country_decisions = {
 				tag = BAL
 				primary_culture = javanese
 			}
-			religion_group = hinduism
+			religion_group = dharmic
 		}
 		provinces_to_highlight = {
 			OR = {
