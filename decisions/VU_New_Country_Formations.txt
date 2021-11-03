@@ -1392,7 +1392,7 @@ country_decisions = {
 				AND = {
 					owns_core_province = 257
 					culture_group = west_slavic
-					religion_group = catholic
+					religion_group = christian
 				}
 			}
 		}
@@ -1827,7 +1827,7 @@ country_decisions = {
 			AND = {
 				owns_core_province = 363
 				culture_group = west_slavic
-				religion_group = catholic
+				religion_group = christian
 			}
 		}
 	}
