@@ -1187,6 +1187,25 @@
  COLONIAL_CAPE_COLONY_CY_ADJ:0 "Gwladfa y Penrhyn"
  COLONIAL_CAPE_COLONY_EU:0 "Lurmuturreko Kolonia"
  COLONIAL_CAPE_COLONY_EU_ADJ:0 "Lurmuturreko Kolonia"
+ 
+ #DocRobert's colonial addons
+ colonial_florida:0 "Colonial Florida"
+ short_colonial_florida:0 "Florida"
+ COLONIAL_FLORIDA_Florida:0 "Florida"
+ COLONIAL_FLORIDA_Florida_ADJ:0 "Floridian"
+ colonial_kongo:0 "Colonial Kongo"
+ short_colonial_kongo:0 "Kongo"
+ COLONIAL_KONGO_Kongo:0 "Kongo"
+ COLONIAL_KONGO_Kongo_ADJ:0 "Kongolese"
+ colonial_middle_africa:0 "Colonial Middle Africa"
+ short_colonial_middle_africa:0 "Middle Africa"
+ COLONIAL_MIDDLE_AFRICA_middle_africa:0 "Middle Africa"
+ COLONIAL_MIDDLE_AFRICA_middle_africa_ADJ:0 "Middle Africa"
+ #Changing Kongolese Charter to Gabon
+ trade_company_kongo:0 "Gabonese Charter"
+ TRADE_COMPANY_KONGO_Root_Culture_GetName:0 "[Root.Culture.GetName] Gabonese Company"
+ TRADE_COMPANY_KONGO_Africa_Trade_Company:0 "Gabonese Trade Company"
+ 
 
 
 
