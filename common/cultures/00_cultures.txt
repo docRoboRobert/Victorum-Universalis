@@ -109,6 +109,24 @@ germanic = {
 			"von Werthern" "von Wackerbarth" "von Bredow" "von Brandt"
 		}
 	}
+	alsatian = {
+		primary = ALS
+		male_names = {
+		    Ade Alfuns Alis Anstett Beri Chrischan Chrisorst Elje Frider Gaber Gabert Gamill Gari Gasti Gilg Güschti Hainri Hangi Hannickel Hard Hippolyt Hopper Jeri Jokeb Kärel Kola Kuenz Lari Legerd Leies Lippes Loidani Lonel Lorang Lüwi Lux Luzias Marx Mattes Mattheus Meïs Melchert Nikles Noe Schàangi Scharel Schosef Sepp Urbe Välte Vit	
+		}
+		female_names = {
+		    Adalie Aget Angenes Annalis Annemei Annlis Appell Efi Evel Gret Gretelis Grita Hangerjettle Lenor Lestin Lickel Lisabeth Lisett Loni Lowis Madlen Madlene Madlong Mareile Mareilis Margret Margrit Mei Meiev Meilene Migele Niggel Odili Orande Shosanna Karlin
+		}
+	}
+	swiss = {
+		primary = SWI
+		male_names = {
+		    Friedrich Otto Heinrich Werner Ferdinand Karl Alfred Benedikt Christoph Dietrich Engelbert Florian Gerhard Immanuel Johan Leonhard Markus Nikolaus Paul Ruprecht Stefan Thomas Ulrich Vinzenz André Charles Didier Emmanuel Frédéric Gérard Henri Jules Matthieu Nicolas Pascal Vincent Claudio Edmondo Leonardo Timoteo
+		}
+		female_names = {
+		    Angela Marlene Hanna Anastasia Christina Adelina Adriana Afina Alexandra Alexia Ana Anna Arina 
+		}
+	}
 	#VU addition
 	caucasian_german = {
 		#primary = XXX
@@ -635,31 +653,31 @@ low_franconian = {
 	}
 }
 #VU addition
-alemannic = { #Although is Germanic, I've decided to give this culture it's own group so as to better define it.
-	graphical_culture = westerngfx
-
-	alsatian = {
-	    primary = ALS
-	    male_names = {
-		    Ade Alfuns Alis Anstett Beri Chrischan Chrisorst Elje Frider Gaber Gabert Gamill Gari Gasti Gilg Güschti Hainri Hangi Hannickel Hard Hippolyt Hopper Jeri Jokeb Kärel Kola Kuenz Lari Legerd Leies Lippes Loidani Lonel Lorang Lüwi Lux Luzias Marx Mattes Mattheus Meïs Melchert Nikles Noe Schàangi Scharel Schosef Sepp Urbe Välte Vit
-	    }
-	    female_names = {
-		    Adalie Aget Angenes Annalis Annemei Annlis Appell Efi Evel Gret Gretelis Grita Hangerjettle Lenor Lestin Lickel Lisabeth Lisett Loni Lowis Madlen Madlene Madlong Mareile Mareilis Margret Margrit Mei Meiev Meilene Migele Niggel Odili Orande Shosanna Karlin
-	    }
-	}
-    swiss = {
-		primary = SWI
-		male_names = {
-		    Friedrich Otto Heinrich Werner Ferdinand Karl Alfred Benedikt Christoph Dietrich Engelbert Florian Gerhard Immanuel Johan Leonhard Markus Nikolaus Paul Ruprecht Stefan Thomas Ulrich Vinzenz André Charles Didier Emmanuel Frédéric Gérard Henri Jules Matthieu Nicolas Pascal Vincent Claudio Edmondo Leonardo Timoteo
-	    }
-	    female_names = {
-		    Angela Marlene Hanna Anastasia Christina Adelina Adriana Afina Alexandra Alexia Ana Anna Arina 
-	    }
-	}
-	dynasty_names = {
-		"von Oldenburg" "von Mecklenburg" "von Hohenzollern" "von Habsburg" "von Zweibrücken" "von Wittelsbach" "von Holstein" "von Hesse-Kassel" "von Holstein-Gottorp" "von Pfalz-Neumarkt" "von Braunschweig-Lüneburg" "von Hannover" "von Wettin" "von Rügen" "von Diepholz" "von Silesia-Glogau" "von Bibra" "von Bodeck" "Boeselager" "Jaworski" "Brauchitsch" "von Bülow" "von Calw" "von Cham" "von Steutzlingen" "von Wetterau" "von Julichgau" "von Helffenstein" "von Venis" "von Kyburg" "von Arbon" "von Urach" "von Cilli" "von Utlede" "von Katzenelnbogen" "von Altena" "von der Marck" "von Hessen" "von Arnsberg" "von Bucheck" "Walter" "Grelle" "von Dolen" "von Liebnitz" "von Virneberg" "Rübsamen" "von Bardewik" "Vorrade" "Warendorp" "Lüneburg" "Wittenborg" "von Klingenberg" "von Parchim" "von Kärnten" "von Rügen" "von Neuenburg" "von Werle" "von Mecklemburg" "von Wittenberg" "von Brandenburg" "von Glogau" "von Rendsburg" "von Pommern" "von Slesvig" "von Plain" "von Formbach" "von Wasserburg" "von Lengenfeld" "von Eberstein" "von Heinsberg" "von Weimar" "von Andechs" "von Sulzbach" "von Kleve" "von Versfleth" "von Wickerode" "von Winzenburg" "von Thüringen" "von Bogen" "von Meissen" "von Genf" "von Arstein" "von Veldenz" "von Landsberg" "von Franken" "von Babenberg" "von Berg" "von Hohenstauf" "von Saarbrucken" "von Puteledorg" "von Henneberg" "von Stade" "von Sommerchenberg" "von Kirchberg" "von Württemberg" "von Tübingen" "von Raabs" "von Heimbach" "von Nörvenich" "von Jülich" "von Metz" "von Limburg" "von Eppstein" "von Luxemburg" "von Hornes" "von Sachsen" "von Beilstein" "von Eppenstein" "von Lusatia" "Orlamunde" "von Hohenstaufen" "von Otakar" "Weimar" "von Tirol" "von Haldensleben" "von Schweinfurt" "von Stad" "von Rheinfelden" "von Ringelheim" "de Luxembourg" "Hainaut" "von Lenzburg" "Prochaska" "von Boulogne" "von Nordheim" "von Egisheim" "Asperger" "Hunfriding" "Witte" "von Hagen" "von Mölln" "Runese" Pleskow "von Supplingenburg" "von Plotzkau" "von Katlenburg" "von Goslar" "von Wunstorf" "von Goltern" "von Wölpe" "von Nellenburg" "von Arnstein" "von Holte" "von Wippra" "von der Mark" "von Diest" "von Rietberg" "von Löningen" "von Corvey" "von Steinfurt" "von Tecklenburg" "von Rüssel" "von Waldeck" "von Ravensberg" "von Weyhe" "von Hoya" "von Dachau" "von Bassenheim" "von Kerpen" "von Tunna" "von Salza" "von Malberg" "von Hohenlohe" "von Wüllersleben" "von Osterna" "von Sangershausen" "von Heldrungen" "von Orseln" "von Nauen" "Suerbeer" "von Lunen" "von Vechta" "Pernstein" "von Schwerin" "von Dorpat" "von Haseldorf" "von Vyshusen" "von Dolen" "von Friesack" "von Hildesheim" "von Lechsgmünd" "von Komburg" "von Stahleck" "von Ziegenhain" "von Dinslaken" "von Lambach" "von Pluyvoise" "von Scharfenberg" "von Leistenberg" "von Schwarzburg" "von Badewide" "von Wassel" "von Dassel" "von Greyerz" "von Grenchen" "von Abensberg" "von Grünberg" "von Lichtenberg" "von Hachberg" "von Wartenberg" "von Wolfach" "von Gudensberg" "von Gerhausen" "von Signau" "von Groitzsch" "von Frickingen" "von Sigmaringen" "von Regensburg" "von Lurngau" "von Leibrechtskirchen" "von Meran" "von Treven" "Gross" "Gualch" "Beck" "zu Schwaben" "von Attems" "von Schweipünt" "von Saffenberg" "von Nörvenich" "von Querfurt" "von Mansfeld" "von Kärnten" "von Eschenloch" "von Naumburg" "von Schrapelnau" "von Magdeburg" "von Hardegg" "von Arneburg" "von Seeburg" "von Veldenz" "von Schmidtburg" "von Bamberg" "von Kyrburg" "von Baumberg" "von Stolzenberg" "von Altenbaumberg" "von Tyrol" "von Ortenburg" "von Wangen" "von Frontenhausen" "von Andechs" "von Eurasburg" "von Geroldseck" "von Bocksberg" "von Vinstingen" "von Schoenecken" "von Daun" "von Leiningen" "von Hohenfels" "von Hunolstein" "von Blankenheim" "von Salm" "von Falkenstein" "von Sponheim" "von Brunshorn" "von Stein" "von Bikkenbach" "von Heinsberg" "van Valkenburg" "von Sayn" "von Veringen" "von Gruningen" "von Eselsberg" "von Muhlhausen" "von Pfirt" "von Lövenstein" "von Landau" "von Tschudi" "von Glarus" "von Chalöns" "von Ratzeburg" "von Schlawe" "von Schwelz" "von Liebschau" "von der Lippe" "von Schauenburg" "von Rostock" "von Gustrow" "von Rendsburg" "von Segeberg" "von Neuhaus" "von Friedenthal" "von Rosenberg" "von Waldenstein" "von Altenburg" "von Pernstein" "von Monheim" "von Urslingen" "von Assel" "von Osnabrück" "von Münster" "von Kleve" "von Jülich" "von Andernach" "von Göttingen" "von Pfalz" "von Baden" "von Nordgau" "von Metz" "von Sundgau" "von Bern" "von Schwyz" "von Neuchatel" "von Aargau" "von Breisgau" "von Fürstenberg" "von Württemberg" "von Franken" "von Thüringen" "von Weimar" "von Celle" "von Amsberg" "von Wolgast" "von Altmark" "von Anhalt" "von Plauen" "von Ansbach" "von Kempten" "von Arnim" "von Trent" "von Innsbruck" "von Lausitz" "von Stettin" "von Abensberg"  "von Berlichingen" "von Beetzen" "Sieghardinger" "von Walbeck" "von Knorring" "von Creytzen" Sack "von Taube" "Wöhrmann" "von Keller" "von der Mark" "von Wittelsbach" "von Baden" "Rotberg" "von Frankenstein" "von Taube" "von Uffeln" "von Hessen" "von Boyneburg" "von Schack" "von Fabrice" "von Hardenberg" "von Welf" "von Schauenburg" "von Holstein-Gottorp" "Askanier" "von Oldenburg"
-	}
-}
+#alemannic = { #Although is Germanic, I've decided to give this culture it's own group so as to better define it.
+#	graphical_culture = westerngfx
+#
+#	alsatian = {
+#	    primary = ALS
+#	    male_names = {
+#		 
+#	    }
+#	    female_names = {
+#		
+#	    }
+#	}
+#	swiss = {
+#		primary = SWI
+#		male_names = {
+#			
+#		}
+#		female_names = {
+#			
+#		}
+#	}
+#	dynasty_names = {
+#		#Same as German dynastues
+#	}
+#}	#Temporarily disabled since its existance as separate group from German didn't make much sense from historical view
 
 scandinavian = { #Nordic
 	graphical_culture = westerngfx
@@ -10237,38 +10255,6 @@ lost_cultures_group = {
 			Alfredsson Andersson Assarsson Batra Billgren Broman Ekberg Glans Gjedde Glenmark Hansson Jansson Ibrahimovic Järegård Kulle Larsson Lohmander Lundberg Malmkvist Malmsjö Melander Möller Nordqvist Nordström Ohlmarks Persson Poppe Ranelid Sundström Troell Wester Olsson
 		}
 	}
-	anglosaxon = { #CK2
-		dynasty_names = {
-			Godhelming Beorming Eorling Æbbing Hæsting Ælling Eadricing Eadwulfing Leodwalding
-			Æthelfrithing Yffing Ingving Offing Oswalding Cerdicing Wiglafing Coenwalhing
-			Beorning Iceling Wuffing Wihtgilsing Ross Ciesla Rowe Borthwick
-		}
-		male_names = {
-			Arncytel Balthere Beorhtfrith Beorhthelm Beorhtmær Beorhtnoth Beorhtric Beorhtsige Beorhtwine_Beorhtwine Beorn_Beorn Beornræd Beornwulf
-			Burgheard Byrhtnoth Cearl Cenfus Cenræd Cenwulf Ceolwulf Cerdic Copsige
-			Cuthberht Cuthræd Cynehelm Cynewulf Cytelbearn Eadberht Eadfrith Eadgar Eadmund Eadmær Eadric
-			Eadræd Eadsige Eadulf Eadweald Eadweard Eadwig Eadwine Eadwulf Ealdhun Ealdmund Ealdræd Ealdwine
-			Ealdwulf Eanberht Eanfrith Eanhere Eardwulf Eastmund Ecgberht Ecgfrith Gamall Godwine Gospatric Guthfrith Guthmund
-			Gyrth Hacon Harold Heahberht Hereberht Hereweald Hereweard Hlothere Hrodberht Inwær Leofheah Leofhelm
-			Leofric Leofweald Leofwine Maccus Morcar Mærleswegn Offa Onlaf Ordgar
-			Oscytel Oshere Osmund Osric Osræd Osulf Osweald Oswine Oswulf Peter Rædwulf_Ralph Rægenweald Scule
-			Sigeberht Sigehelm Sigeric Sigeræd Sighere Siweard Stigand Swegn Swithelm Swithræd Swæfræd Sæbert Sælræd Sæweald
-			Sæxbald Sæxræd Thoræd Thurcytel Thurfrith Tostig Uhtræd Ulfcytel Waltheof Werestan Wiglaf Wihtræd
-			Wistan Wulf Wulfgar Wulfgeat Wulfhelm Wulfhere Wulfmær Wulfnoth Wulfstan Ælfgar Ælfmær Ælfnoth Ælfric Ælfræd_Alfred Ælfsige
-			Ælfstan Ælfwald Ælfweard Ælfwig Ælfwine Ælle Æthelbald Æthelberht Æthelfrith Æthelhere Æthelmær
-			Æthelric Æthelræd_Ailred Æthelsige Æthelstan Æthelweald Æthelweard Æthelwine Æthelwold Æthelwulf
-			Eormenred Eorcenberht Eormenric Eadbald Rædwald
-		}
-		female_names = {
-			Agatha Balthild Beorhtflæd Beorhtgifu Beorhtgyth Beorhtwaru Beorhtwynn Beornflæd Beorngyth Blæja Burgflæd Ceolflæd Cristina
-			Cuthburg Cwenburg Cyneburg Cynegyth Cynehild Cyneswith Cynethryth Eadburg Eadflæd Eadgifu Eadgyth Eadhburh Eadhild Ealdgyth
-			Ealhflæd Ealhswith Eanswith Ecgfrida Ecgwyn Godgifu Gunhilda Gytha Helga Heregyth Hereswith Hextilda Hungifu Judith
-			Leofflæd Leofgifu Leofrun Leofwaru Leofwynn Margaret_Margaret Maud Matilda Mildrith Octreda Sifflæd Sigrid Sæthryth Wulfflæd Wulfgifu
-			Wulfgyth Wulfhild Wulfrun Wulfthryth Wulfwaru Wulfwynn Wynnflæd Wærburg Æbba Ælfflæd Ælfgifu Ælfgyth Ælflæda_Ælflæda Ælfrida
-			Ælfswith Ælfthryth Ælfwynn Æthelburg Æthelflæd Æthelgifu Æthelhild Æthelræda_Æthelreda Æthelswith Æthelthryth
-			Æthelburh Seaxburh Wihtburh
-		}
-	}
 	babylonian = {
 		dynasty_names = {
 			Amorite Sealand Larsa Kassite
@@ -10361,6 +10347,131 @@ lost_cultures_group = {
 		female_names = {
 			Amage Ghadani Opoin Polemakratia
 		}
+	}
+}
+old_germanic_group = {
+	graphical_culture = westerngfx
+	
+	anglosaxon = { #CK2
+		dynasty_names = {
+			Godhelming Beorming Eorling Æbbing Hæsting Ælling Eadricing Eadwulfing Leodwalding
+			Æthelfrithing Yffing Ingving Offing Oswalding Cerdicing Wiglafing Coenwalhing
+			Beorning Iceling Wuffing Wihtgilsing Ross Ciesla Rowe Borthwick
+		}
+		male_names = {
+			Arncytel Balthere Beorhtfrith Beorhthelm Beorhtmær Beorhtnoth Beorhtric Beorhtsige
+			Beorhtwine_Beorhtwine Beorn_Beorn Beornræd Beornwulf Burgheard Byrhtnoth Cearl Cenfus
+			Cenræd Cenwulf Ceolwulf Cerdic Copsige Cuthberht Cuthræd Cynehelm Cynewulf Cytelbearn 
+			Eadberht Eadfrith Eadgar Eadmund Eadmær Eadric Eadræd Eadsige Eadulf Eadweald Eadweard 
+			Eadwig Eadwine Eadwulf Ealdhun Ealdmund Ealdræd Ealdwine Ealdwulf Eanberht Eanfrith 
+			Eanhere Eardwulf Eastmund Ecgberht Ecgfrith Gamall Godwine Gospatric Guthfrith Guthmund
+			Gyrth Hacon Harold Heahberht Hereberht Hereweald Hereweard Hlothere Hrodberht Inwær 
+			Leofheah Leofhelm Leofric Leofweald Leofwine Maccus Morcar Mærleswegn Offa Onlaf Ordgar
+			Oscytel Oshere Osmund Osric Osræd Osulf Osweald Oswine Oswulf Peter Rædwulf_Ralph 
+			Rægenweald Scule Sigeberht Sigehelm Sigeric Sigeræd Sighere Siweard Stigand Swegn 
+			Swithelm Swithræd Swæfræd Sæbert Sælræd Sæweald Sæxbald Sæxræd Thoræd Thurcytel Thurfrith 
+			Tostig Uhtræd Ulfcytel Waltheof Werestan Wiglaf Wihtræd Wistan Wulf Wulfgar Wulfgeat 
+			Wulfhelm Wulfhere Wulfmær Wulfnoth Wulfstan Ælfgar Ælfmær Ælfnoth Ælfric Ælfræd_Alfred 
+			Ælfsige Ælfstan Ælfwald Ælfweard Ælfwig Ælfwine Ælle Æthelbald Æthelberht Æthelfrith 
+			Æthelhere Æthelmær Æthelric Æthelræd_Ailred Æthelsige Æthelstan Æthelweald Æthelweard 
+			Æthelwine Æthelwold Æthelwulf Eormenred Eorcenberht Eormenric Eadbald Rædwald
+		}
+		female_names = {
+			Agatha Balthild Beorhtflæd Beorhtgifu Beorhtgyth Beorhtwaru Beorhtwynn Beornflæd 
+			Beorngyth Blæja Burgflæd Ceolflæd Cristina Cuthburg Cwenburg Cyneburg Cynegyth Cynehild
+			Cyneswith Cynethryth Eadburg Eadflæd Eadgifu Eadgyth Eadhburh Eadhild Ealdgyth Ealhflæd 
+			Ealhswith Eanswith Ecgfrida Ecgwyn Godgifu Gunhilda Gytha Helga Heregyth Hereswith 
+			Hextilda Hungifu Judith Leofflæd Leofgifu Leofrun Leofwaru Leofwynn Margaret_Margaret 
+			Maud Matilda Mildrith Octreda Sifflæd Sigrid Sæthryth Wulfflæd Wulfgifu Wulfgyth Wulfhild 
+			Wulfrun Wulfthryth Wulfwaru Wulfwynn Wynnflæd Wærburg Æbba Ælfflæd Ælfgifu Ælfgyth 
+			Ælflæda_Ælflæda Ælfrida Ælfswith Ælfthryth Ælfwynn Æthelburg Æthelflæd Æthelgifu 
+			Æthelhild Æthelræda_Æthelreda Æthelswith Æthelthryth Æthelburh Seaxburh Wihtburh
+		}
+	}
+	alemanni = {
+		dynasty_names = {
+			Alamani Alemanni Aleni Godhelming Beorming Eorling Æbbing Hæsting Ælling Eadricing Eadwulfing 
+			Leodwalding Æthelfrithing Yffing Ingving Offing Oswalding Cerdicing Wiglafing Coenwalhing
+			Beorning Iceling Wuffing Wihtgilsing Ross Ciesla Rowe Borthwick
+		}
+	}
+	langobard = {
+		dynasty_names = {
+			Lombari Langobardian Langobardi Deaconi Godhelming Beorming Eorling Æbbing Hæsting Ælling 
+			Eadricing Eadwulfing Leodwalding Æthelfrithing Yffing Ingving Offing Oswalding 
+			Cerdicing Wiglafing Coenwalhing Beorning Iceling Wuffing Wihtgilsing Ross Ciesla Rowe Borthwick
+		}
+	}
+	jutlandic = {
+		dynasty_names = {
+			Juti Jutlani Godhelming Beorming Eorling Æbbing Hæsting Ælling Eadricing Eadwulfing 
+			Leodwalding Æthelfrithing Yffing Ingving Offing Oswalding Cerdicing Wiglafing Coenwalhing
+			Beorning Iceling Wuffing Wihtgilsing Ross Ciesla Rowe Borthwick
+		}
+	}
+	frankish = {
+		dynasty_names = {
+			Frankon Chlodwingen Karoling Meroving Francar Charlamangan Reinhi Awizgron Akwinian Meuseni
+			Usipete Salien Chamave Apsivarien
+		}
+	}
+	frisii = {
+		dynasty_names = {
+			Firsii Friti Ferisi Godhelming Beorming Eorling Æbbing Hæsting Ælling Eadricing Eadwulfing 
+			Leodwalding Æthelfrithing Yffing Ingving Offing Oswalding Cerdicing Wiglafing Coenwalhing
+			Beorning Iceling Wuffing Wihtgilsing Ross Ciesla Rowe Borthwick
+		}
+	}
+	suebi = {
+		dynasty_names = {
+			Suebi Suobi Marcomanni Hermeric Swabi Godhelming Beorming Eorling Æbbing Hæsting Ælling Eadricing 
+			Eadwulfing Leodwalding Æthelfrithing Yffing Ingving Offing Oswalding Cerdicing Wiglafing 
+			Coenwalhing Beorning Iceling Wuffing Wihtgilsing Ross Ciesla Rowe Borthwick
+		}
+	}
+	male_names = {
+		Adalbert Adalbern Adalfuns Adalhard Adalwin Adelmar Adolphus Agi Agilmar Agilulf
+		Agmundr Alard Alaric Alberich Alboin Aldebrand Aldegar Aldhard Aldo Aldric Aleifr
+		Alfarr Alfbern Alfhard Alfher Alfons Alfwin Aliprand Altwidus Andebert Ansehelm
+		Anselm Ansgar Anso Ansobert Ansovald Anzo Ari Arminius Arnfinnr Arni Arnórr Arvid
+		Ascelin Asco Badulf Baggi Baldarich Baldomar Baldovin Baugulf Berahthram Berard
+		Bernard Bernhard Bertilo Birgir Bjartr Boda Brandr Carlman Carloman Chlodochar
+		Chlodovech Chlodulf Cholthar Cola Colobert Dagfinnr Dagr Danr Eberhard Eburwin Egilhard
+		Egino Eileifr Einarr Ekkebert Ellanher Emelrich Engel Ercanbald Erlendr Ernust Ewald
+		Eyvindr Faramund Farvald Filibert Folcher Fólki Fridenot Fridumar Friduric Fridwald
+		Fulco Gasto Gauti Gautselin Geirr Gerben Gerfrid Germund Gero Gerulf Gisbert Gislin
+		Gismund Goda Godafrid Godehard Godric Goma Gozzo Grimwald Gumarich Gundhram Gunni
+		Gunnvaldr Hadufuns Haimo Hakon Halfdan Halli Hallr Hallsteinn Haraldr Hardmod Haribert
+		Hartwig Heard Helgi Helmo Helmold Hemingr Hengist Herman Hildefons Huldowig Horsa
+		Hrafn Hrodebert Hrodger Hrodulf Hruodnand Hubert Hugo Huguo Hunberct Hunfrid Ingo
+		Arncytel Balthere Beorhtfrith Beorhthelm Beorhtmær Beorhtnoth Beorhtric Beorhtsige
+		Beorhtwine_Beorhtwine Beorn_Beorn Beornræd Beornwulf Burgheard Byrhtnoth Cearl Cenfus
+		Cenræd Cenwulf Ceolwulf Cerdic Copsige Cuthberht Cuthræd Cynehelm Cynewulf Cytelbearn 
+		Eadberht Eadfrith Eadgar Eadmær Eadric Eadræd Eadsige Eadulf Eadweald Eadweard 
+		Eadwine Eadwulf Ealdhun Ealdmund Ealdræd Ealdwine Ealdwulf Eanberht Eanfrith 
+		Eanhere Eardwulf Eastmund Ecgberht Ecgfrith Gamall Godwine Gospatric Guthfrith Guthmund
+		Gyrth Hacon Harold Heahberht Hereberht Hereweald Hereweard Hlothere Hrodberht Inwær 
+		Leofheah Leofhelm Leofric Leofweald Leofwine Maccus Morcar Mærleswegn Offa Onlaf Ordgar
+		Oscytel Oshere Osmund Osric Osræd Osulf Osweald Oswine Oswulf Peter Rædwulf_Ralph 
+		Rægenweald Scule Sigeberht Sigehelm Sigeric Sigeræd Sighere Siweard Stigand Swegn 
+		Swithelm Swithræd Swæfræd Thoræd Thurcytel Thurfrith Tostig Ulfcytel Waltheof Werestan 
+		Wiglaf Wihtræd Wistan Wulf Wulfgar Wulfgeat Wulfhelm Wulfhere Wulfmær Wulfnoth Wulfstan 
+		Ælfgar Ælfmær Ælfnoth Ælfsige Ælfstan Ælfweard Æthelbald Æthelberht Æthelhere Æthelmær 
+		Eormenred Eorcenberht Eormenric Rædwald
+	}
+	female_names = {
+		Agatha Balthild Beorhtflæd Beorhtgifu Beorhtwaru Beornflæd 
+		Beorngyth Blæja Burgflæd Ceolflæd Cristina Cuthburg Cwenburg Cyneburg Cynegyth Cynehild
+		Cyneswith Cynethryth Eadburg Eadflæd Eadgifu Eadgyth Eadhburh Eadhild Ealdgyth Ealhflæd 
+		Ealhswith Eanswith Ecgfrida Ecgwyn Godgifu Gunhilda Gytha Helga Hereswith Hextilda Hungifu 
+		Judith Leofflæd Leofgifu Leofrun Leofwaru Margaret Maud Matilda Mildrith Octreda Sifflæd 
+		Sigrid Wulfflæd Wulfgifu Wulfhild Wulfrun Wulfwaru Wærburg Æbba Ælfflæd Ælfrida Ælfswith 
+		Æthelburg Æthelflæd Æthelgifu Æthelhild Æthelswith
+	}
+	dynasty_names = {
+		Godhelming Beorming Eorling Æbbing Hæsting Ælling Eadricing Eadwulfing Leodwalding
+		Æthelfrithing Yffing Ingving Offing Oswalding Cerdicing Wiglafing Coenwalhing
+		Beorning Iceling Wuffing Wihtgilsing Ross Ciesla Rowe Borthwick
 	}
 }
 mesopotamian_group = {
