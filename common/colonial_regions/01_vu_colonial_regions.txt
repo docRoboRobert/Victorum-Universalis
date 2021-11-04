@@ -1630,3 +1630,107 @@ colonial_malaysia = {
 		name = "COLONIAL_MALAYSIA_Malaysia"
 	}
 }
+
+#Kongo
+colonial_kongo = {
+	color = { 171 148 148 }
+
+	# Random New World
+	tax_income = 0
+	native_size = 10
+	native_ferocity = 1
+	native_hostileness = 3
+
+	trade_goods = {
+		fish = 10
+		naval_supplies = 10
+	}
+
+	culture = {
+		kongolese = 10
+	}
+
+	religion = {
+		animism = 10
+	}
+
+	provinces = {
+		1796 1901 4068 4081 4085 4086 4087 4088 4089 4090 4092 4096 4097 4098 4099 4100 4101 4103 4104 4105 4109 6532 6534 6535 6536 6538 6539 6540 6669 7494 7497
+	}
+	
+	# Generic
+	names = {
+		name = "COLONIAL_KONGO_Kongo"
+	}
+}
+
+#Colonial Middle Africa
+colonial_middle_africa = {
+	color = { 188 243 231 }
+
+	# Random New World
+	tax_income = 0
+	native_size = 10
+	native_ferocity = 1
+	native_hostileness = 3
+
+	trade_goods = {
+		fish = 10
+		naval_supplies = 10
+	}
+
+	culture = {
+		kongolese = 10
+	}
+
+	religion = {
+		animism = 10
+	}
+
+	provinces = {
+		1162 1163 1164 2286 2287 2932 7473 7474 7475 7476 7477 7478
+	}
+	
+	# Generic
+	names = {
+		name = "COLONIAL_MIDDLE_AFRICA_middle_africa"
+	}
+}
+
+#Colonial Florida
+colonial_florida = {
+	color = { 238 162 196 }
+
+	# Random New World
+	tax_income = 2
+	native_size = 8
+	native_ferocity = 2
+	native_hostileness = 5
+	
+	trade_goods = {
+		fur = 10
+		fish = 5
+		naval_supplies = 5
+		grain = 2
+		tobacco = 2
+		cotton = 2
+		sugar = 2
+	}
+	
+	culture = {
+		creek = 28
+	}
+	
+	religion = {
+		shamanism = 28
+	}
+	
+	provinces = {
+		893 921 922 923 926 927 928 2530 2533 2534 2535 2536 4625 4626 4884 5994 5995 5996 5997 5998 5999 6000 6001 6002 6003 6004 6005 6006 
+	}
+	
+	# Specific
+	names = {
+		name = "COLONIAL_FLORIDA_Florida"
+	}
+}
