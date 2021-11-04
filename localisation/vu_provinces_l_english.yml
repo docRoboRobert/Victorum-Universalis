@@ -1155,6 +1155,7 @@
  PROV5302:0 "Abu Hameb"
  PROV5303:0 "Jaghbub"
  PROV5304:0 "Al Wahat"
+ PROV5305:0 "Say"
  PROV5306:0 "Mizda"
  PROV5307:0 "Ghat"
  PROV5308:0 "Ghadames"
@@ -1184,6 +1185,9 @@
  PROV5332:0 "Arsissa"
  PROV5333:0 "Calha"
  PROV5334:0 "Rostak"
+ PROV5335:0 "Bourèm Forassi"
+ PROV5336:0 "Yaguas"
+ PROV5337:0 "Reconquista"
  PROV5340:0 "Chainoqua"
  PROV5341:0 "Cochoqua"
  PROV5342:0 "Gorachoqua"
@@ -1270,7 +1274,7 @@
  PROV5423:0 "Tsienyane"         #ERROR - Return to double check these rushed localisations, or Rakops
  PROV5424:0 "Kgala"         #ERROR - Bantu name in what was probably San (Khoisan) land.
  PROV5425:0 "'Nu'goaes"
- PROV5426:0 "Kwadi"
+ PROV5426:0 "Chitoto Chobatua"
  PROV5427:0 "Rundu"         #ERROR - Bantu name in what was probably San (Khoisan) land.
  PROV5428:0 "Hamcumqua"
  PROV5452:0 "Kotzebue Sound"
@@ -2508,7 +2512,7 @@
  PROV6563:0 "Esna"
  PROV6564:0 "Armant"
  PROV6565:0 "Abu Minqar"
- PROV6566:0 "Fada"
+ PROV6566:0 "Gounzoureye"
  PROV6567:0 "Wambu"
  PROV6568:0 "Shebeen"
  PROV6569:0 "Biye"
@@ -2533,7 +2537,7 @@
  PROV6588:0 "Fatugo"
  PROV6589:0 "Kaka"
  PROV6590:0 "Melut"
- PROV6591:0 "Zagazig"
+ PROV6591:0 "Kaoge"
  PROV6592:0 "Central Lower Nile River"
  PROV6593:0 "Upper Lower Nile River"
  PROV6594:0 "Lower Central Nile River"
@@ -3885,7 +3889,7 @@
  PROV7945:0 "Sarrebourg"            #Or Sarrebourg
  PROV7946:0 "Épinal"
  PROV7947:0 "Toul"
- PROV7948:0 "Thionville"
+ PROV7948:0 "Hayange"
  PROV7949:0 "Sarreguemines"
  PROV7950:0 "Langres"
  PROV7951:0 "Semur"

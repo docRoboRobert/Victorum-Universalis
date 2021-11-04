@@ -3067,7 +3067,7 @@ province;red;green;blue;x;x
 3066;103;138;186;Arelerland;x
 3067;215;186;53;Saint-Brieuc;x
 3068;143;184;20;Cournaille;x
-3069;205;113;192;Verdun;x
+3069;205;113;192;Rombas;x
 3070;157;64;108;Guise;x
 3071;105;170;17;Châlons;x
 3072;255;149;79;Chartres;x
@@ -5303,7 +5303,7 @@ province;red;green;blue;x;x
 5302;200;100;158;Abu Hamad
 5303;200;100;233;Jaghbub
 5304;200;100;33;Al Wahat2
-5305;200;100;108;BeyondTypus386
+5305;106;150;161;Say
 5306;200;100;183;Mizda
 5307;200;100;58;Ghat
 5308;200;100;133;Ghadames2
@@ -5333,9 +5333,9 @@ province;red;green;blue;x;x
 5332;100;200;156;Agants
 5333;100;200;231;Qalhat
 5334;100;200;31;Rustaq
-5335;100;200;106;BeyondTypus416
-5336;100;200;181;BeyondTypus417
-5337;100;200;56;BeyondTypus418
+5335;86;151;99;Bourem Forassi
+5336;50;105;96;Yaguas
+5337;35;183;4;Reconquista
 5338;100;200;131;BeyondTypus419
 5339;100;200;206;BeyondTypus420
 5340;200;100;6;Chainoqua
@@ -6564,7 +6564,7 @@ province;red;green;blue;x;x
 6563;100;180;130;Esna
 6564;49;154;55;Armant
 6565;147;174;21;Abu_Minqar
-6566;19;112;223;Fada
+6566;171;83;113;Gounzoureye
 6567;249;236;219;Wambu
 6568;32;62;168;Shebeen
 6569;23;211;131;Biye
@@ -6589,7 +6589,7 @@ province;red;green;blue;x;x
 6588;120;227;228;Fatugo
 6589;164;60;133;Kaka
 6590;137;201;167;Melut
-6591;86;113;248;Zagazig
+6591;86;113;248;Kaoge
 6592;62;99;113;Central_Lower_Nile_River
 6593;34;44;176;Upper_Lower_Nile_River
 6594;112;187;206;Lower_Central_Nile_River
@@ -7946,7 +7946,7 @@ province;red;green;blue;x;x
 7945;50;50;122;Sarrebourg
 7946;50;50;197;Epinal
 7947;50;50;72;Toul
-7948;50;50;147;Thionville
+7948;50;50;147;Hayange
 7949;50;50;222;Sarreguemines
 7950;50;100;22;Langres
 7951;50;100;97;Semur

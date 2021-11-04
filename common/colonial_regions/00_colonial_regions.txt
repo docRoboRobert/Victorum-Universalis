@@ -1256,6 +1256,8 @@ colonial_peru = {
 		804 805 809 810 811 812 813 814 2821 2822 2823 2824 2825 2826 2827 2943 #Tawantisuyu
 		806 807 808 2828 2829 2830 #Kuntisuyu
 		2944 2945 #Amazon
+		#VU Peruvian additions by San Felipe
+		5336
 	}
 
 #	# Specific
@@ -1373,6 +1375,8 @@ colonial_la_plata = {
 		772 773 2850 2851 2852 #Banda Oriental
 		783 784 787 792 793 796 2840 2841 2862 2873 2874 #Chile
 		775 799 2883 #Paraguay
+		#VU Argentinian additions by San Felipe
+		5337
 	}
 	
 	# Specific
@@ -1514,6 +1518,9 @@ colonial_brazil = {
 		749 752 2886 2923 2924 2925 2926 2927 #Maranhao
 		747 748 2890 2928 2929 2930 2933 2934 2935 #Grao-Para
 		746  2889   2938 #Guyana
+		#VU Amazonian additions by San Felipe
+		6089 6090 6091 6092 6093 6094 6095 6096 6097 6098 6099 6100 6101 6102 6103 6104 6105 6106 6107 6109 6110 6111 6112 6113 6114 6115 6116 6117 
+		6118 6119 6120 6121 6122 6123 6124 6125 6126
 	}
 	
 	# Specific
