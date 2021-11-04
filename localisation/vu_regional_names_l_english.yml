@@ -198,10 +198,6 @@
  colonial_cape:0 "Colonial Cape"
  short_colonial_cape:0 "the Cape"
 
-#Trade Companies
- trade_company_polynesia:0 "Polynesian Charter"
-
-
 
  #################################################################################
  #################################################################################
@@ -1246,7 +1242,3 @@
  COLONIAL_CAPE_COLONY_FR_ADJ:0 "Colonie du Cap"
  COLONIAL_CAPE_COLONY_BR:0 "Trevadenn ar C'hab"
  COLONIAL_CAPE_COLONY_BR_ADJ:0 "Trevadenn ar C'hab"
-
- #Trade Companies
- TRADE_COMPANY_POLYNESIA_Root_Culture_GetName:0 "[Root.Culture.GetName] Polynesian Company"
- TRADE_COMPANY_POLYNESIA_Trade_Company:0 "Polynesia Trade Company"
