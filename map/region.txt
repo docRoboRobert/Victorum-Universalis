@@ -686,7 +686,7 @@ east_africa_region = {
 
 angola_region = {
 	areas = {
-		angola_namibia_area
+		#angola_namibia_area
 		kasai_area
 		kongo_area
 		matamba_area

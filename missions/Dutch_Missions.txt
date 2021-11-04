@@ -322,12 +322,18 @@ ned_colonial_group_two = {
 				colonial_australia = {
 					has_discovered = ROOT
 				}
-				trade_company_indonesia = {
+				colonial_indonesia = { #To disable if the trade company is reenabled
 					has_discovered = ROOT
 				}
-				trade_company_moluccas = {
+				trade_company_polynesia = { #To disable if moluccas trade charter gets back in
 					has_discovered = ROOT
 				}
+				#trade_company_indonesia = { #Cut for now
+				#	has_discovered = ROOT
+				#}
+				#trade_company_moluccas = { #Cut for now
+				#	has_discovered = ROOT
+				#}
 			}
 		}
 		

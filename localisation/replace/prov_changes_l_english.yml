@@ -581,6 +581,7 @@
  PROV2991:0 "Forcalquier"
  PROV2999:0 "Hormuz"
  PROV3002:0 "Lasva"
+ PROV3069:0 "Rombas"
  PROV3197:0 "Jülich"
  PROV4033:0 "Gadarif"
  PROV4154:0 "Pyrenees"
@@ -747,6 +748,7 @@
  PROV4632:0 "Kewa"         #Formerly 5828
  PROV4634:0 "Dilzhé'é"         #Formerly 5842
  PROV4649:0 "Mayo"         #Formerly 5062
+ PROV4650:0 "Tumacacori"         #Formerly 5062
  #1.30
  #PROV4694:0 "Foix"
  #PROV4695:0 "Carcassonne"

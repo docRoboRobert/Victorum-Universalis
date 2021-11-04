@@ -2201,7 +2201,7 @@ gc_spain_5_b = {
 			else = {
 				give_permaclaims_for_mission = { mission=gc_spa_austrian_union }
 			}
-			netherlands_area = {
+			holland_area = { 
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_permanent_claim = ROOT }

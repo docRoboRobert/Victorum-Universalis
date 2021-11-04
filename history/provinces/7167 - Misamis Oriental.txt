@@ -6,7 +6,7 @@ add_core = BTU
 culture = danao
 religion = animism
 capital = "Himologan"
-trade_goods = gems
+trade_goods = diamonds
 hre = no
 base_tax = 3
 base_production = 4
@@ -28,7 +28,6 @@ extra_cost = 8
 	base_manpower = 3
 	capital = "Cagayán"
 	is_city = yes
-	trade_goods = gems 
 }
 
 1622.1.1 = { 
@@ -42,5 +41,4 @@ extra_cost = 8
 	base_manpower = 4
 	capital = "Cagayan de Oro"
 	is_city = yes
-	trade_goods = gems 
 }

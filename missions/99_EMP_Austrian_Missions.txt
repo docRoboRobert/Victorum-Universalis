@@ -241,49 +241,49 @@ emp_hab_netherlands_branch = {
 						}
 					}
 				}
-				AND = {
-					trade_company_region = trade_company_indonesia
-					if = {
-						limit = {
-							ROOT = {
-								OR = {
-									has_dlc = "Dharma"
-									has_dlc = "Wealth of Nations"
-								}
-							}
-						}
-						is_owned_by_trade_company = no
-					}
-					else = {
-						OR = {
-							NOT = { is_core = root }
-							unrest = 1
-						}
-					}
-					ROOT = {
-						NOT = {
-							num_of_owned_provinces_with = {
-								value = 5
-								trade_company_region = trade_company_indonesia
-								if = {
-									limit = {
-										ROOT = {
-											OR = {
-												has_dlc = "Dharma"
-												has_dlc = "Wealth of Nations"
-											}
-										}
-									}
-									is_owned_by_trade_company = yes
-								}
-								else = {
-									is_core = root
-									NOT = { unrest = 1 }
-								}
-							}
-						}
-					}
-				}
+				#AND = { #Cut for now
+				#	trade_company_region = trade_company_indonesia
+				#	if = {
+				#		limit = {
+				#			ROOT = {
+				#				OR = {
+				#					has_dlc = "Dharma"
+				#					has_dlc = "Wealth of Nations"
+				#				}
+				#			}
+				#		}
+				#		is_owned_by_trade_company = no
+				#	}
+				#	else = {
+				#		OR = {
+				#			NOT = { is_core = root }
+				#			unrest = 1
+				#		}
+				#	}
+				#	ROOT = {
+				#		NOT = {
+				#			num_of_owned_provinces_with = {
+				#				value = 5
+				#				trade_company_region = trade_company_indonesia
+				#				if = {
+				#					limit = {
+				#						ROOT = {
+				#							OR = {
+				#								has_dlc = "Dharma"
+				#								has_dlc = "Wealth of Nations"
+				#							}
+				#						}
+				#					}
+				#					is_owned_by_trade_company = yes
+				#				}
+				#				else = {
+				#					is_core = root
+				#					NOT = { unrest = 1 }
+				#				}
+				#			}
+				#		}
+				#	}
+				#}
 			}
 			has_port = yes
 		}
@@ -310,11 +310,11 @@ emp_hab_netherlands_branch = {
 					trade_company_region = trade_company_east_india
 					is_owned_by_trade_company = yes
 				}
-				num_of_owned_provinces_with = {
-					value = 5
-					trade_company_region = trade_company_indonesia
-					is_owned_by_trade_company = yes
-				}
+				#num_of_owned_provinces_with = { #Cut for now
+				#	value = 5
+				#	trade_company_region = trade_company_indonesia
+				#	is_owned_by_trade_company = yes
+				#}
 			}
 			else = {
 				num_of_owned_provinces_with = {
@@ -335,12 +335,12 @@ emp_hab_netherlands_branch = {
 					is_core = root
 					NOT = { unrest = 1 }
 				}
-				num_of_owned_provinces_with = {
-					value = 5
-					trade_company_region = trade_company_indonesia
-					is_core = root
-					NOT = { unrest = 1 }
-				}
+				#num_of_owned_provinces_with = { #Cut for now
+				#	value = 5
+				#	trade_company_region = trade_company_indonesia
+				#	is_core = root
+				#	NOT = { unrest = 1 }
+				#}
 			}
 		}
 		effect = {
