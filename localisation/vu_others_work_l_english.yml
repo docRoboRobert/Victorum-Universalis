@@ -1188,7 +1188,7 @@
  COLONIAL_CAPE_COLONY_EU:0 "Lurmuturreko Kolonia"
  COLONIAL_CAPE_COLONY_EU_ADJ:0 "Lurmuturreko Kolonia"
  
- #DocRobert's colonial addons
+ #VU colonial additions by DocRobert
  colonial_florida:0 "Colonial Florida"
  short_colonial_florida:0 "Florida"
  COLONIAL_FLORIDA_Florida:0 "Florida"
@@ -1205,8 +1205,6 @@
  trade_company_kongo:0 "Gabonese Charter"
  TRADE_COMPANY_KONGO_Root_Culture_GetName:0 "[Root.Culture.GetName] Gabonese Company"
  TRADE_COMPANY_KONGO_Africa_Trade_Company:0 "Gabonese Trade Company"
- 
-
 
 
  ##################################################################################################

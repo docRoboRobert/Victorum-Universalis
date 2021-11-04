@@ -1567,7 +1567,7 @@ colonial_indochina = {
 
 # Indonesia
 colonial_indonesia = {
-	color = { 61 141 255 }
+	color = { 88 152 96 }
 
 	# Random New World
 	tax_income = 0
