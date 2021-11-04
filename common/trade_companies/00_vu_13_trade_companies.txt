@@ -1,23 +1,23 @@
 #TODO:
 #Rename "provinces" to "provinces"
-trade_company_dongola_trade = {
-	color = {
-		60 180 60
-	}
-	provinces = {
-		774 1216 1217 1219 1220 1221 1222 1225 1226 1228 1229 1232 2324 2797 2798 2799 2800 2801 2802 4033 4322 5277 5279 5280 5281 5282 5283 5284 5285 5286 5287 5289 5290 5300 5302 6503 6504 6506 6507 6508 6509 6510 6511 6512 6513 6514 6515 6516 6580 6581 6582 6588 6589 6590 6972 6973 
-	}
-	
-	# Specific
-	# Generic
-	names = {
-		name = "TRADE_COMPANY_DONGOLA_Root_Culture_GetName"
-	}
-	names = {
-		name = "TRADE_COMPANY_DONGOLA_Africa_Trade_Company"
-	}
-}
-trade_company_pontus_trade={ #Pontic Charter
+#trade_company_dongola_trade = {
+#	color = {
+#		60 180 60
+#	}
+#	provinces = {
+#		774 1216 1217 1219 1220 1221 1222 1225 1226 1228 1229 1232 2324 2797 2798 2799 2800 2801 2802 4033 4322 5277 5279 5280 5281 5282 5283 5284 5285 5286 5287 5289 5290 5300 5302 6503 6504 6506 6507 6508 6509 6510 6511 6512 6513 6514 6515 6516 6580 6581 6582 6588 6589 6590 6972 6973 
+#	}
+#	
+#	# Specific
+#	# Generic
+#	names = {
+#		name = "TRADE_COMPANY_DONGOLA_Root_Culture_GetName"
+#	}
+#	names = {
+#		name = "TRADE_COMPANY_DONGOLA_Africa_Trade_Company"
+#	}
+#}
+trade_company_pontus_trade = { #Pontic Charter
 	color={
 		115 80 150 
 	}
@@ -35,7 +35,7 @@ trade_company_pontus_trade={ #Pontic Charter
 		name = "TRADE_COMPANY_PONTUS_European_Trade_Company"
 	}
 }
-trade_company_murava={ #Ryazanian Charter
+trade_company_murava = { #Ryazanian Charter
 	color={
 		215 127 40 
 	}
@@ -53,13 +53,13 @@ trade_company_murava={ #Ryazanian Charter
 		name = "TRADE_COMPANY_MURAVA_European_Trade_Company"
 	}
 }
-trade_company_moscow_trade={ #Muscovite Charter
+trade_company_moscow_trade = { #Muscovite Charter
 	color={
 		210 46 28 
 	}
 	
 	provinces = {
-		294 295 306 307 308 312 1753 1754 1956 1752 3271 3301 4117 3276 3277 3278 3279 3290 4147 4245 4248 4249 4250 4251 4252 4253 4254 5657 5659 5658 5651 5665 5683 5656 301 7878 5682 5669 5685 4148 4243 5661 7880 7881 314 1755 1778 1957 4262 4263 5655 293 5684 
+		294 295 306 307 308 312 1753 1754 1956 1752 3271 3301 4117 3276 3277 3278 3279 3290 4147 4245 4248 4249 4250 4251 4252 4253 4254 5657 5659 5658 5651 5665 5683 5656 301 7878 5682 5669 5685 4148 4243 5661 7880 7881 314 1755 1778 1957 4262 4263 5655 293 5684 6975
 	}
 	
 	# Specific
@@ -71,7 +71,7 @@ trade_company_moscow_trade={ #Muscovite Charter
 		name = "TRADE_COMPANY_MOSCOW_European_Trade_Company"
 	}
 }
-trade_company_aegean_trade={ #Greek Charter
+trade_company_aegean_trade = { #Greek Charter
 	color={
 		30 211 232 
 	}
@@ -89,7 +89,7 @@ trade_company_aegean_trade={ #Greek Charter
 		name = "TRADE_COMPANY_AEGEAN_European_Trade_Company"
 	}
 }
-trade_company_danzig_trade={ #Prussian Charter
+trade_company_danzig_trade = { #Prussian Charter
 	color={
 		40 39 34 
 	}
@@ -107,25 +107,25 @@ trade_company_danzig_trade={ #Prussian Charter
 		name = "TRADE_COMPANY_DANZIG_European_Trade_Company"
 	}
 }
-trade_company_napoli={ #Neapolitan Charter
-	color={
-		137 45 176 
-	}
-	
-	provinces = {
-		354 355 356 357 1795 2326 2448 2449 2451 2452 2474 4567 5274 5303 5304 5306 5307 5309 5310 5311 6602 6603 6954 6955 6958 6959
-	}
-	
-	# Specific
-	# Generic
-	names = {
-		name = "TRADE_COMPANY_NAPOLI_Root_Culture_GetName"
-	}
-	names = {
-		name = "TRADE_COMPANY_NAPOLI_European_Trade_Company"
-	}
-}
-trade_company_porto_trade={ #Portuguese Charter
+#trade_company_napoli={ #Neapolitan Charter
+#	color={
+#		137 45 176 
+#	}
+#	
+#	provinces = {
+#		354 355 356 357 1795 2326 2448 2449 2451 2452 2474 4567 5274 5303 5304 5306 5307 5309 5310 5311 6602 6603 6954 6955 6958 6959
+#	}
+#	
+#	# Specific
+#	# Generic
+#	names = {
+#		name = "TRADE_COMPANY_NAPOLI_Root_Culture_GetName"
+#	}
+#	names = {
+#		name = "TRADE_COMPANY_NAPOLI_European_Trade_Company"
+#	}
+#}
+trade_company_porto_trade = { #Portuguese Charter
 	color={
 		57 160 101 
 	}
@@ -143,7 +143,7 @@ trade_company_porto_trade={ #Portuguese Charter
 		name = "TRADE_COMPANY_PORTO_European_Trade_Company"
 	}
 }
-trade_company_irish_sea={ #Irish Charter
+trade_company_irish_sea = { #Irish Charter
 	color={
 		0 130 70 
 	}
@@ -161,7 +161,7 @@ trade_company_irish_sea={ #Irish Charter
 		name = "TRADE_COMPANY_IRISH_European_Trade_Company"
 	}
 }
-trade_company_lyon_trade={ #Occitan Charter
+trade_company_lyon_trade = { #Occitan Charter
 	color={
 		160 66 61 
 	}
@@ -180,7 +180,7 @@ trade_company_lyon_trade={ #Occitan Charter
 		name = "TRADE_COMPANY_LYON_European_Trade_Company"
 	}
 }
-trade_company_koeln_trade={ #Westphalian Charter
+trade_company_koeln_trade = { #Westphalian Charter
 	color={	200 100 21 }
 	
 	provinces = {
@@ -196,7 +196,7 @@ trade_company_koeln_trade={ #Westphalian Charter
 		name = "TRADE_COMPANY_KOELN_European_Trade_Company"
 	}
 }
-trade_company_rouen_trade={ #Breton Charter
+trade_company_rouen_trade = { #Breton Charter
 	color={
 		52 132 0
 	}
@@ -212,5 +212,73 @@ trade_company_rouen_trade={ #Breton Charter
 	}
 	names = {
 		name = "TRADE_COMPANY_ROUEN_European_Trade_Company"
+	}
+}
+
+trade_company_palestine = { #Mandate of Palestine
+	color = { 3 158 31 }
+	
+	provinces = {		
+		379 1854 1855 5180 5203 7443 7444 7445 7446 7447 7448 7449 7450 7451 8735
+	}
+	
+	# Specific
+	# Generic
+	names = {
+		name = "TRADE_COMPANY_PALESTINE_Root_Culture_GetName"
+	}
+	names = {
+		name = "TRADE_COMPANY_PALESTINE_Near_East_Trade_Company"
+	}
+}
+
+trade_company_lebanon = { #Mandate of Lebanon
+	color = { 151 18 107 }
+	
+	provinces = {
+		378 5205
+	}
+	
+	# Specific
+	# Generic
+	names = {
+		name = "TRADE_COMPANY_LEBANON_Root_Culture_GetName"
+	}
+	names = {
+		name = "TRADE_COMPANY_LEBANON_Root_Culture_GetName"
+	}
+}
+
+trade_company_jordan = { #Mandate of Trans-Jordan
+	color = { 125 88 22 }
+	
+	provinces = {
+		380 381 4270 7452 7457
+	}
+	
+	# Specific
+	# Generic
+	names = {
+		name = "TRADE_COMPANY_JORDAN_Root_Culture_GetName"
+	}
+	names = {
+		name = "TRADE_COMPANY_JORDAN_Near_East_Trade_Company"
+	}
+}
+
+trade_company_cyprus_trade = {
+	color = { 31 247 64 }
+	
+	provinces = {
+		321 5139 5145
+	}
+	
+	# Specific
+	# Generic
+	names = {
+		name = "TRADE_COMPANY_CYPRUS_Root_Culture_GetName"
+	}
+	names = {
+		name = "TRADE_COMPANY_CYPRUS_European_Trade_Company"
 	}
 }
