@@ -1187,26 +1187,351 @@
  COLONIAL_CAPE_COLONY_CY_ADJ:0 "Gwladfa y Penrhyn"
  COLONIAL_CAPE_COLONY_EU:0 "Lurmuturreko Kolonia"
  COLONIAL_CAPE_COLONY_EU_ADJ:0 "Lurmuturreko Kolonia"
- 
+ #
+ #################################################################################
+ #################################################################################
+ #################################################################################
  #VU colonial additions by DocRobert
+ #################################################################################
+ #################################################################################
+ #################################################################################
  colonial_florida:0 "Colonial Florida"
  short_colonial_florida:0 "Florida"
  COLONIAL_FLORIDA_Florida:0 "Florida"
  COLONIAL_FLORIDA_Florida_ADJ:0 "Floridian"
+ #colonial_kongo:0 "Colonial Kongo"
+ #short_colonial_kongo:0 "Kongo"
+ #COLONIAL_KONGO_Kongo:0 "Kongo"
+ #COLONIAL_KONGO_Kongo_ADJ:0 "Kongolese"
+ #colonial_middle_africa:0 "Colonial Middle Africa"
+ #short_colonial_middle_africa:0 "Middle Africa"
+ #COLONIAL_MIDDLE_AFRICA_middle_africa:0 "Middle Africa"
+ #COLONIAL_MIDDLE_AFRICA_middle_africa_ADJ:0 "Middle Africa"
+ #Changing Kongolese Charter to Gabon
+ #trade_company_kongo:0 "Gabonese Charter"
+ #TRADE_COMPANY_KONGO_Root_Culture_GetName:0 "[Root.Culture.GetName] Gabonese Company"
+ #TRADE_COMPANY_KONGO_Africa_Trade_Company:0 "Gabonese Trade Company"
+ #
+ #######################################
+ # VU colonial additions by San Felipe #
+ #######################################
+ colonial_angola:0 "Colonial Angola"
+ short_colonial_angola:0 "Angola"
+ COLONIAL_ANGOLA_Angola:0 "Angola"
+ COLONIAL_ANGOLA_Angola_ADJ:0 "Angolan"
+ #
+ colonial_namibia:0 "Colonial Namibia"
+ short_colonial_namibia:0 "Namibia"
+ COLONIAL_NAMIBIA_Namibia:0 "Namibia"
+ COLONIAL_NAMIBIA_Namibia_ADJ:0 "Namibian"
+ #
+ colonial_zambezi:0 "Colonial Zambezi"
+ short_colonial_zambezi:0 "Zambezi"
+ COLONIAL_ZAMBEZI_Zambezi:0 "Zambezi"
+ COLONIAL_ZAMBEZI_Zambezi_ADJ:0 "Zambezian"
+ #
+ colonial_mozambique:0 "Colonial Mozambique"
+ short_colonial_mozambique:0 "Mozambique"
+ COLONIAL_MOZAMBIQUE_Mozambique:0 "Mozambique"
+ COLONIAL_MOZAMBIQUE_Mozambique_ADJ:0 "Mozambiquan"
+ #
+ colonial_tanganyika:0 "Colonial Tanganyika"
+ short_colonial_tanganyika:0 "Tanganyika"
+ COLONIAL_TANGANYIKA_Tanganyika:0 "Tanganyika"
+ COLONIAL_TANGANYIKA_Tanganyika_ADJ:0 "Tanganyikan"
+ #
+ colonial_kenya:0 "Colonial Kenya"
+ short_colonial_kenya:0 "Kenya"
+ COLONIAL_KENYA_Kenya:0 "Kenya"
+ COLONIAL_KENYA_Kenya_ADJ:0 "Kenyan"
+ #
+ colonial_buganda:0 "Colonial Buganda"
+ short_colonial_buganda:0 "Buganda"
+ COLONIAL_BUGANDA_Buganda:0 "Buganda"
+ COLONIAL_BUGANDA_Buganda_ADJ:0 "Bugandan"
+ #
+ colonial_rawanda:0 "Colonial Rawanda"
+ short_colonial_rawanda:0 "Rawanda"
+ COLONIAL_RAWANDA_Rawanda:0 "Rawanda"
+ COLONIAL_RAWANDA_Rawanda_ADJ:0 "Rawandan"
+ #
+ colonial_somalia:0 "Colonial Somalia"
+ short_colonial_somalia:0 "Somalia"
+ COLONIAL_SOMALIA_Somalia:0 "Somalia"
+ COLONIAL_SOMALIA_Somalia_ADJ:0 "Somalian"
+ #
+ colonial_eritrea:0 "Colonial Eritrea"
+ short_colonial_eritrea:0 "Eritrea"
+ COLONIAL_ERITREA_Eritrea:0 "Eritrea"
+ COLONIAL_ERITREA_Eritrea_ADJ:0 "Eritrean"
+ #
+ colonial_ethiopia:0 "Colonial Ethiopia"
+ short_colonial_ethiopia:0 "Ethiopia"
+ COLONIAL_ETHIOPIA_Ethiopia:0 "Ethiopia"
+ COLONIAL_ETHIOPIA_Ethiopia_ADJ:0 "Ethiopian"
+ #
  colonial_kongo:0 "Colonial Kongo"
  short_colonial_kongo:0 "Kongo"
  COLONIAL_KONGO_Kongo:0 "Kongo"
  COLONIAL_KONGO_Kongo_ADJ:0 "Kongolese"
- colonial_middle_africa:0 "Colonial Middle Africa"
- short_colonial_middle_africa:0 "Middle Africa"
- COLONIAL_MIDDLE_AFRICA_middle_africa:0 "Middle Africa"
- COLONIAL_MIDDLE_AFRICA_middle_africa_ADJ:0 "Middle Africa"
- #Changing Kongolese Charter to Gabon
- trade_company_kongo:0 "Gabonese Charter"
- TRADE_COMPANY_KONGO_Root_Culture_GetName:0 "[Root.Culture.GetName] Gabonese Company"
- TRADE_COMPANY_KONGO_Africa_Trade_Company:0 "Gabonese Trade Company"
+ #
+ colonial_sudan:0 "Colonial Sudan"
+ short_colonial_sudan:0 "Sudan"
+ COLONIAL_SUDAN_Sudan:0 "Sudan"
+ COLONIAL_SUDAN_Sudan_ADJ:0 "Sudanese"
+ #
+ colonial_central_africa:0 "Colonial Central Africa"
+ short_colonial_central_africa:0 "Central Africa"
+ COLONIAL_CENTRAL_AFRICA_Central_Africa:0 "Central Africa"
+ COLONIAL_CENTRAL_AFRICA_Central_Africa_ADJ:0 "Central African"
+ #
+ colonial_chad:0 "Colonial Chad"
+ short_colonial_chad:0 "Chad"
+ COLONIAL_CHAD_Chad:0 "Chad"
+ COLONIAL_CHAD_Chad_ADJ:0 "Chadian"
+ #
+ colonial_cameroon:0 "Colonial Cameroon"
+ short_colonial_cameroon:0 "Cameroon"
+ COLONIAL_CAMEROON_Cameroon:0 "Cameroon"
+ COLONIAL_CAMEROON_Cameroon_ADJ:0 "Cameroonian"
+ #
+ colonial_nigeria:0 "Colonial Nigeria"
+ short_colonial_nigeria:0 "Nigeria"
+ COLONIAL_NIGERIA_Nigeria:0 "Nigeria"
+ COLONIAL_NIGERIA_Nigeria_ADJ:0 "Nigerian"
+ #
+ colonial_niger:0 "Colonial Niger"
+ short_colonial_niger:0 "Niger"
+ COLONIAL_NIGER_Niger:0 "Niger"
+ COLONIAL_NIGER_Niger_ADJ:0 "Nigeriens"
+ #
+ colonial_mali:0 "Colonial Mali"
+ short_colonial_mali:0 "Mali"
+ COLONIAL_MALI_Mali:0 "Mali"
+ COLONIAL_MALI_Mali_ADJ:0 "Malian"
+ #
+ colonial_mauritania:0 "Colonial Mauritania"
+ short_colonial_mauritania:0 "Mauritania"
+ COLONIAL_MAURITANIA_Mauritania:0 "Mauritania"
+ COLONIAL_MAURITANIA_Mauritania_ADJ:0 "Mauritanian"
+ #
+ colonial_burkina:0 "Colonial Burkina"
+ short_colonial_burkina:0 "Burkina"
+ COLONIAL_BURKINA_Burkina:0 "Burkina"
+ COLONIAL_BURKINA_Burkina_ADJ:0 "Burkinan"
+ #
+ colonial_ivory_coast:0 "Colonial Ivory Coast"
+ short_colonial_ivory_coast:0 "Ivory Coast"
+ COLONIAL_IVORY_COAST_Ivory_Coast:0 "Ivory Coast"
+ COLONIAL_IVORY_COAST_Ivory_Coast_ADJ:0 "Ivorian"
+ #
+ colonial_ghana:0 "Colonial Ghana"
+ short_colonial_ghana:0 "Ghana"
+ COLONIAL_GHANA_Ghana:0 "Ghana"
+ COLONIAL_GHANA_Ghana_ADJ:0 "Ghanaian"
+ #
+ colonial_togo:0 "Colonial Togo"
+ short_colonial_togo:0 "Togo"
+ COLONIAL_TOGO_Togo:0 "Togo"
+ COLONIAL_TOGO_Togo_ADJ:0 "Togolese"
+ #
+ colonial_benin:0 "Colonial Benin"
+ short_colonial_benin:0 "Benin"
+ COLONIAL_BENIN_Benin:0 "Benin"
+ COLONIAL_BENIN_Benin_ADJ:0 "Beninese"
+ #
+ colonial_guinea:0 "Colonial Guinea"
+ short_colonial_guinea:0 "Guinea"
+ COLONIAL_GUINEA_Guinea:0 "Guinea"
+ COLONIAL_GUINEA_Guinea_ADJ:0 "Guinean"
+ #
+ colonial_liberia:0 "Colonial Liberia"
+ short_colonial_liberia:0 "Liberia"
+ COLONIAL_LIBERIA_Liberia:0 "Liberia"
+ COLONIAL_LIBERIA_Liberia_ADJ:0 "Liberian"
+ #
+ colonial_sierra_leone:0 "Colonial Sierra Leone"
+ short_colonial_sierra_leone:0 "Sierra Leone"
+ COLONIAL_SIERRA_LEONE_Sierra_Leone:0 "Sierra Leone"
+ COLONIAL_SIERRA_LEONE_Sierra_Leone_ADJ:0 "Sierran Leonese"
+ #
+ colonial_senegal:0 "Colonial Senegal"
+ short_colonial_senegal:0 "Senegal"
+ COLONIAL_SENEGAL_Senegal:0 "Senegal"
+ COLONIAL_SENEGAL_Senegal_ADJ:0 "Senegalese"
+ #
+ colonial_gambia:0 "Colonial Gambia"
+ short_colonial_gambia:0 "Gambia"
+ COLONIAL_GAMBIA_Gambia:0 "Gambia"
+ COLONIAL_GAMBIA_Gambia_ADJ:0 "Senegalese"
+ #
+ colonial_morocco:0 "Colonial Morocco"
+ short_colonial_morocco:0 "Morocco"
+ COLONIAL_MOROCCO_Morocco:0 "Morocco"
+ COLONIAL_MOROCCO_Morocco_ADJ:0 "Moroccan"
+ #
+ colonial_algeria:0 "Colonial Algeria"
+ short_colonial_algeria:0 "Algeria"
+ COLONIAL_ALGERIA_Algeria:0 "Algeria"
+ COLONIAL_ALGERIA_Algeria_ADJ:0 "Algerian"
+ #
+ colonial_tunisia:0 "Colonial Tunisia"
+ short_colonial_tunisia:0 "Tunisia"
+ COLONIAL_TUNISIA_Tunisia:0 "Tunisia"
+ COLONIAL_TUNISIA_Tunisia_ADJ:0 "Tunisian"
+ #
+ colonial_libya:0 "Colonial Libya"
+ short_colonial_libya:0 "Libya"
+ COLONIAL_LIBYA_Libya:0 "Libya"
+ COLONIAL_LIBYA_Libya_ADJ:0 "Libyan"
+ #
+ colonial_madagascar:0 "Colonial Madagascar"
+ short_colonial_madagascar:0 "Madagascar"
+ COLONIAL_MADAGASCAR_Madagascar:0 "Madagascar"
+ COLONIAL_MADAGASCAR_Madagascar_ADJ:0 "Madagascan"
+ #
+ colonial_beafada:0 "Colonial Beafada"
+ short_colonial_beafada:0 "Beafada"
+ COLONIAL_BEAFADA_Beafada:0 "Beafada"
+ COLONIAL_BEAFADA_Beafada_ADJ:0 "Beafadan"
+ #
+ colonial_papua:0 "Colonial Papua"
+ short_colonial_papua:0 "Papua"
+ COLONIAL_PAPUA_Papua:0 "Papua"
+ COLONIAL_PAPUA_Papua_ADJ:0 "Papuan"
+ #
+ colonial_solomons:0 "Colonial Solomons"
+ short_colonial_solomons:0 "Solomons"
+ COLONIAL_SOLOMONS_Solomons:0 "Solomons"
+ COLONIAL_SOLOMONS_Solomons_ADJ:0 "Soloman"
+ #
+ colonial_vanuatu:0 "Colonial Vanuatu"
+ short_colonial_vanuatu:0 "Vanuatu"
+ COLONIAL_VANUATU_Vanuatu:0 "Vanuatu"
+ COLONIAL_VANUATU_Vanuatu_ADJ:0 "Vanuatan"
+ #
+ colonial_new_caledonia:0 "Colonial New Caledonia"
+ short_colonial_new_caledonia:0 "New Caledonia"
+ COLONIAL_NEW_CALEDONIA_New_Caledonia:0 "New Caledonia"
+ COLONIAL_NEW_CALEDONIA_New_Caledonia_ADJ:0 "New Caledonian"
+ #
+ colonial_fiji:0 "Colonial Fiji"
+ short_colonial_fiji:0 "Fiji"
+ COLONIAL_FIJI_Fiji:0 "Fiji"
+ COLONIAL_FIJI_Fiji_ADJ:0 "Fijian"
+ # 
+ #TRADE COMPANIES
+ trade_company_porto_trade:0 "Commissariat of Portugal"
+ TRADE_COMPANY_PORTO_Root_Culture_GetName:0 "[Root.Culture.GetName] Portuguese Commissariat"
+ TRADE_COMPANY_PORTO_European_Trade_Company:0 "Portuguese Commissariat"
+ #
+ trade_company_rouen_trade:0 "Commissariat of Wales"
+ TRADE_COMPANY_ROUEN_Root_Culture_GetName:0 "[Root.Culture.GetName] Welsh Commissariat"
+ TRADE_COMPANY_ROUEN_European_Trade_Company:0 "Welsh Commissariat"
+ #
+ trade_company_irish_sea:0 "Commissariat of Ireland"
+ TRADE_COMPANY_IRISH_Root_Culture_GetName:0 "[Root.Culture.GetName] Irish Commissariat"
+ TRADE_COMPANY_IRISH_European_Trade_Company:0 "Irish Commissariat"
+ #
+ trade_company_koeln_trade:0 "Commissariat of Holland"
+ TRADE_COMPANY_KOELN_Root_Culture_GetName:0 "[Root.Culture.GetName] Dutch Commissariat"
+ TRADE_COMPANY_KOELN_European_Trade_Company:0 "Dutch Commissariat"
+ #
+ trade_company_danzig_trade:0 "Commissariat of the Baltics"
+ TRADE_COMPANY_DANZIG_Root_Culture_GetName:0 "[Root.Culture.GetName] Baltic Commissariat"
+ TRADE_COMPANY_DANZIG_European_Trade_Company:0 "Baltic Commissariat"
+ #
+ trade_company_lyon_trade:0 "Commissariat of Switzerland"
+ TRADE_COMPANY_LYON_Root_Culture_GetName:0 "[Root.Culture.GetName] Swiss Commissariat"
+ TRADE_COMPANY_LYON_European_Trade_Company:0 "Swiss Commissariat"
+ #
+ trade_company_aegean_trade:0 "Commissariat of Greece"
+ TRADE_COMPANY_AEGEAN_Root_Culture_GetName:0 "[Root.Culture.GetName] Greek Commissariat"
+ TRADE_COMPANY_AEGEAN_European_Trade_Company:0 "Greek Commissariat"
+ #
+ trade_company_cyprus_trade:0 "Commissariat of Cyrus"
+ TRADE_COMPANY_CYPRUS_Root_Culture_GetName:0 "[Root.Culture.GetName] Cypriot Commissariat"
+ TRADE_COMPANY_CYPRUS_European_Trade_Company:0 "Cypriot Commissariat"
+ #
+ trade_company_murava:0 "Commissariat of Ryazan"
+ TRADE_COMPANY_MURAVA_Root_Culture_GetName:0 "[Root.Culture.GetName] Ryazanian Commissariat"
+ TRADE_COMPANY_MURAVA_European_Trade_Company:0 "Ryazanian Commissariat"
+ #
+ trade_company_pontus_trade:0 "Commissariat of the Caucasus"
+ TRADE_COMPANY_PONTUS_Root_Culture_GetName:0 "[Root.Culture.GetName] Caucasian Commissariat"
+ TRADE_COMPANY_PONTUS_European_Trade_Company:0 "Caucasian Commissariat"
+ #
+ trade_company_moscow_trade:0 "Commissariat of Moscow"
+ TRADE_COMPANY_MOSCOW_Root_Culture_GetName:0 "[Root.Culture.GetName] Moscovite Commissariat"
+ TRADE_COMPANY_MOSCOW_European_Trade_Company:0 "Moscovite Commissariat"
+ #
+ trade_company_polynesia:0 "Polynesia Company"
+ TRADE_COMPANY_POLYNESIA_Root_Culture_GetName:0 "[Root.Culture.GetName] Polynesian Company"
+ TRADE_COMPANY_POLYNESIA_Trade_Company:0 "Polynesian Company"
+ #
+ #trade_company_xiyu:0 "Xiyu Charter"
+ #TRADE_COMPANY_XIYU_Root_Culture_GetName:0 "[Root.Culture.GetName] Xiyu Company"
+ #TRADE_COMPANY_XIYU_Asia_Trade_Company:0 "Xiyu Trade Company"
+ #
+ #trade_company_korea:0 "Korean Charter"
+ #TRADE_COMPANY_KOREA_Root_Culture_GetName:0 "[Root.Culture.GetName] Korean Company"
+ #TRADE_COMPANY_KOREA_Asia_Trade_Company:0 "Korean Trade Company"
+ #trade_company_dongola_trade:0 "Sudan Charter"
+ #TRADE_COMPANY_DONGOLA_Root_Culture_GetName:0 "[Root.Culture.GetName] Sudanese Company"
+ #TRADE_COMPANY_DONGOLA_Africa_Trade_Company:0 "Sudanese Trade Company"
+ #trade_company_pontus_trade:0 "Caucasian Charter"
+ #TRADE_COMPANY_PONTUS_Root_Culture_GetName:0 "[Root.Culture.GetName] Caucasian Company"
+ #TRADE_COMPANY_PONTUS_European_Trade_Company:0 "Caucasian Trade Company"
+ #trade_company_murava:0 "Ryazanian Charter"
+ #TRADE_COMPANY_MURAVA_Root_Culture_GetName:0 "[Root.Culture.GetName] Ryazanian Company"
+ #TRADE_COMPANY_MURAVA_European_Trade_Company:0 "Ryazanian Trade Company"
+ #trade_company_moscow_trade:0 "Muscovite Charter"
+ #TRADE_COMPANY_MOSCOW_Root_Culture_GetName:0 "[Root.Culture.GetName] Muscovite Company"
+ #TRADE_COMPANY_MOSCOW_European_Trade_Company:0 "Muscovite Trade Company"
+ #trade_company_aegean_trade:0 "Greek Charter"
+ #TRADE_COMPANY_AEGEAN_Root_Culture_GetName:0 "[Root.Culture.GetName] Greek Company"
+ #TRADE_COMPANY_AEGEAN_European_Trade_Company:0 "Greek Trade Company"
+ #trade_company_danzig_trade:0 "Baltic Charter"
+ #TRADE_COMPANY_DANZIG_Root_Culture_GetName:0 "[Root.Culture.GetName] Baltic Company"
+ #TRADE_COMPANY_DANZIG_European_Trade_Company:0 "Baltic Trade Company"
+ #trade_company_napoli:0 "Libyan Charter"
+ #TRADE_COMPANY_NAPOLI_Root_Culture_GetName:0 "[Root.Culture.GetName] Libyan Company"
+ #TRADE_COMPANY_NAPOLI_European_Trade_Company:0 "Libyan Trade Company"
+ #trade_company_porto_trade:0 "Portuguese Charter"
+ #TRADE_COMPANY_PORTO_Root_Culture_GetName:0 "[Root.Culture.GetName] Portuguese Company"
+ #TRADE_COMPANY_PORTO_European_Trade_Company:0 "Portuguese Trade Company"
+ #trade_company_irish_sea:0 "Irish Charter"
+ #TRADE_COMPANY_IRISH_Root_Culture_GetName:0 "[Root.Culture.GetName] Irish Company"
+ #TRADE_COMPANY_IRISH_European_Trade_Company:0 "Irish Trade Company"
+ #trade_company_lyon_trade:0 "Swiss Charter"
+ #TRADE_COMPANY_LYON_Root_Culture_GetName:0 "[Root.Culture.GetName] Swiss Company"
+ #TRADE_COMPANY_LYON_European_Trade_Company:0 "Swiss Trade Company"
+ #trade_company_koeln_trade:0 "Dutch Charter"
+ #TRADE_COMPANY_KOELN_Root_Culture_GetName:0 "[Root.Culture.GetName] Dutch Company"
+ #TRADE_COMPANY_KOELN_European_Trade_Company:0 "Dutch Trade Company"
+ #trade_company_rouen_trade:0 "Welsh Charter"
+ #TRADE_COMPANY_ROUEN_Root_Culture_GetName:0 "[Root.Culture.GetName] Welsh Company"
+ #TRADE_COMPANY_ROUEN_European_Trade_Company:0 "Welsh Trade Company"
+ #trade_company_english_channel:0 "English Charter"
+ #TRADE_COMPANY_ENGLISH_CHANNEL_Root_Culture_GetName:0 "[Root.Culture.GetName] English Company"
+ #TRADE_COMPANY_ENGLISH_CHANNEL_European_Trade_Company:0 "English Trade Company"
+ #trade_company_bordeaux:0 "French Charter"
+ #TRADE_COMPANY_BORDEAUX_Root_Culture_GetName:0 "[Root.Culture.GetName] French Company"
+ #TRADE_COMPANY_BORDEAUX_European_Trade_Company:0 "French Trade Company"
+ #trade_company_angola:0 "Angolan Charter"
+ #TRADE_COMPANY_ANGOLA_Root_Culture_GetName:0 "[Root.Culture.GetName] Angolan Company"
+ #TRADE_COMPANY_ANGOLA_African_Trade_Company:0 "Angolan Trade Company"
+ #trade_company_south_africa:0 "Namibian Charter"
+ #TRADE_COMPANY_SOUTH_AFRICA_Root_Culture_GetName:0 "[Root.Culture.GetName] Namibian Company"
+ #TRADE_COMPANY_SOUTH_AFRICA_Africa_Trade_Company:0 "Namibian Trade Company"
+ #trade_company_east_africa:0 "Mozambique Charter"
+ #TRADE_COMPANY_EAST_AFRICA_Root_Culture_GetName:0 "[Root.Culture.GetName] Mozambican Company"
+ #TRADE_COMPANY_EAST_AFRICA_Africa_Trade_Company:0 "Mozambican Trade Company"
+ #trade_company_moluccas:0 "Malayan Charter"
+ #TRADE_COMPANY_MOLUCCAS_Root_Culture_GetName:0 "[Root.Culture.GetName] Malayan Company"
+ #TRADE_COMPANY_MOLUCCAS_Indonesia_Trade_Company:0 "Malayan Trade Company"
 
-
+ 
  ##################################################################################################
  ##################################################################################################
  ##################################################################################################
@@ -1566,44 +1891,6 @@
  desc_waterford_harbour_modifier:0 "One of the largest harbours in the British Isles, Waterford Harbour has played a key role in Irish history. The City was founded by the Vikings who settled and use the harbour as a base for their piracy. Now, the Rivers Nore, Suir and Barrow flow into the harbour, making it key in the defense of Ormond."
  wealth_of_carbery_modifier:0 "Wealth of Carbery"
  desc_wealth_of_carbery_modifier:0 "A wealthy and diverse Barony, Carbery was ruled by the MacCarthy Reagh, close family to the MacCarthy Mor Kings of Desmond. Despite its small size, Carbery was one of the wealthiest principalities in Ireland, and its rulers were reported to have the highest income of all the Gaelic Lords. Its wealth came not from its rocky lands, but from its numerous excellent harbours, and its fertile lands near the city of Cork."
-
- #Localising new trade company regions
- trade_company_dongola_trade:0 "Sudan Charter"
- TRADE_COMPANY_DONGOLA_Root_Culture_GetName:0 "[Root.Culture.GetName] Sudanese Company"
- TRADE_COMPANY_DONGOLA_Africa_Trade_Company:0 "Sudanese Trade Company"
- trade_company_pontus_trade:0 "Caucasian Charter"
- TRADE_COMPANY_PONTUS_Root_Culture_GetName:0 "[Root.Culture.GetName] Caucasian Company"
- TRADE_COMPANY_PONTUS_European_Trade_Company:0 "Caucasian Trade Company"
- trade_company_murava:0 "Ryazanian Charter"
- TRADE_COMPANY_MURAVA_Root_Culture_GetName:0 "[Root.Culture.GetName] Ryazanian Company"
- TRADE_COMPANY_MURAVA_European_Trade_Company:0 "Ryazanian Trade Company"
- trade_company_moscow_trade:0 "Muscovite Charter"
- TRADE_COMPANY_MOSCOW_Root_Culture_GetName:0 "[Root.Culture.GetName] Muscovite Company"
- TRADE_COMPANY_MOSCOW_European_Trade_Company:0 "Muscovite Trade Company"
- trade_company_aegean_trade:0 "Greek Charter"
- TRADE_COMPANY_AEGEAN_Root_Culture_GetName:0 "[Root.Culture.GetName] Greek Company"
- TRADE_COMPANY_AEGEAN_European_Trade_Company:0 "Greek Trade Company"
- trade_company_danzig_trade:0 "Baltic Charter"
- TRADE_COMPANY_DANZIG_Root_Culture_GetName:0 "[Root.Culture.GetName] Baltic Company"
- TRADE_COMPANY_DANZIG_European_Trade_Company:0 "Baltic Trade Company"
- trade_company_napoli:0 "Libyan Charter"
- TRADE_COMPANY_NAPOLI_Root_Culture_GetName:0 "[Root.Culture.GetName] Libyan Company"
- TRADE_COMPANY_NAPOLI_European_Trade_Company:0 "Libyan Trade Company"
- trade_company_porto_trade:0 "Portuguese Charter"
- TRADE_COMPANY_PORTO_Root_Culture_GetName:0 "[Root.Culture.GetName] Portuguese Company"
- TRADE_COMPANY_PORTO_European_Trade_Company:0 "Portuguese Trade Company"
- trade_company_irish_sea:0 "Irish Charter"
- TRADE_COMPANY_IRISH_Root_Culture_GetName:0 "[Root.Culture.GetName] Irish Company"
- TRADE_COMPANY_IRISH_European_Trade_Company:0 "Irish Trade Company"
- trade_company_lyon_trade:0 "Swiss Charter"
- TRADE_COMPANY_LYON_Root_Culture_GetName:0 "[Root.Culture.GetName] Swiss Company"
- TRADE_COMPANY_LYON_European_Trade_Company:0 "Swiss Trade Company"
- trade_company_koeln_trade:0 "Dutch Charter"
- TRADE_COMPANY_KOELN_Root_Culture_GetName:0 "[Root.Culture.GetName] Dutch Company"
- TRADE_COMPANY_KOELN_European_Trade_Company:0 "Dutch Trade Company"
- trade_company_rouen_trade:0 "Welsh Charter"
- TRADE_COMPANY_ROUEN_Root_Culture_GetName:0 "[Root.Culture.GetName] Welsh Company"
- TRADE_COMPANY_ROUEN_European_Trade_Company:0 "Welsh Trade Company"
  
  #################################################################################
  #################################################################################
