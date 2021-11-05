@@ -116,6 +116,15 @@ rejected_treaty = {
 	yearly_decay = 1
 }
 
+#########################
+# docRobert's additions #
+#########################
+
+turned_norse_pagan = {
+	opition = -30
+	yearly_decay = 1
+}
+
 ############################
 # GE - Jay Double U's work #
 ############################

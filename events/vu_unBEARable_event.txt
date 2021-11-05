@@ -23,7 +23,7 @@ country_event = { # Player choice to spawn Bear Kingdom
 	}
 	
 	mean_time_to_happen = { #About 10 years
-		months = 12
+		months = 120
 	}
 	
 	option = { # THE BEAR HAS LANDED!
@@ -91,6 +91,10 @@ country_event = { # Player choice to spawn Bear Kingdom
 				adopt_reform_progress = ROOT
 			}
 			set_global_flag = bear_nation_is_real
+			country_event = { 
+				id = vu_bear.2
+				days = 1
+			}
 		}
 	}
 	
@@ -110,15 +114,7 @@ country_event = { # Player can choose to play as Jan Mayen
 	
 	goto = 5591
 	
-	trigger = {
-		ai = no
-		exists = JMN
-		has_global_flag = bear_nation_is_real
-	}
-	
-	mean_time_to_happen = {
-		days = 1
-	}
+	is_triggered_only = yes
 	
 	option = { # I will bear it with honor
 		name = vu_bear.2.a
