@@ -202,5 +202,11 @@
  vu_pagan.1.a:0 "They can settle freely in Iceland"
  vu_pagan.1.b:0 "Those pagans must convert if they want to set foot in Iceland!"
  vu_pagan.1.c:0 "They have to stay! We must attempt to save the colony!"
- vu_pagan.1.tooltip:0 "Harsh treatment and religios repressions may trigger large rectionary uprising of outraged norse pagan communities!"
+ vu_pagan.1.tooltip:0 "Harsh treatment and religious repressions may trigger large rectionary uprising of outraged norse pagan communities!"
+ vu_pagan.2.t:0 "Norse communities demand privileges"
+ vu_pagan.2.d:0 "Iceland remains the last place still divided between those who converted to catholicism and those who remained with beliefs of the Vikings. The tensions are rising ever high as church is pushing its efforts to restrict and convert last pagans. Now the norse clanns threaten to revolt if we do not give them freedom."
+ vu_pagan.2.a:0 "Agree to their demands"
+ vu_pagan.2.b:0 "Those heretics must be purged"
+ vu_pagan.2.c:0 "Catholicism has failed, we shall return to old gods of our fathers"
+ vu_pagan.2.tooltip:0 "All catholic countries will be upset (-30) that we have turned to paganism"
  

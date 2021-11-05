@@ -1142,6 +1142,12 @@ gulf_of_mexico_estuary_modifier:0 "Gulf of Mexico"
  desc_ice_rediscovered_greenland:0 "Re-disovering forgoten viking routes brings back new opportunities"
  second_viking_colonization:0 "Second Era of Colonization"
  desc_second_viking_colonization:0 "Era of new viking colonization has begun. New lands await to be settled!"
+ vu_religious_autonomy_modifier:0 "Autonomy of norse communities"
+ desc_vu_religious_autonomy_modifier:0 "We have granted autonomy and privileges to norse communities tas part of negotiations to prevent uprising."
+ vu_convert_pagans:0 "Mission to convert pagans"
+ desc_vu_convert_pagans:0 "We are on a mission to convert all the pagans within our realm... by all means necessary."
+ vu_norse_religion_returns:0 "Return of norse religion"
+ desc_vu_norse_religion_returns:0 "Our country has recently reverted back to old norse beliefs."
  
  ##########################
  # New province modifiers
@@ -1209,6 +1215,8 @@ gulf_of_mexico_estuary_modifier:0 "Gulf of Mexico"
  bt_emperor_is_pleased:0 "Emperor is Proud"
  bt_pope_is_pleased:0 "Papal Blessings"
  bt_loyal_subject:0 "Loyal to the Cause"
+ 
+ turned_norse_pagan:0 "Returned to norse paganism"
 
 
 
