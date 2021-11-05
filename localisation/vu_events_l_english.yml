@@ -196,4 +196,17 @@
  vu_bear.3.g:0 "Slavic bears say slavic faith is superior"
  vu_bear.3.h:0 "Reject Chalcedonian doctrine and embrace true nature of Jesus"
  vu_bear.3.i:0 "Inshallah my bear-est friends"
+ #Events for European pagan religions
+ vu_pagan.1.t:0 "Last Greenland colonies fail"
+ vu_pagan.1.d:0 "Norse colonizers discovered and settled Greenland around the year 1000. Since then, a small colony on Southwestern coast has been established. It reached its peak prosperity around 13th century, after which it began slowly declining due to many reasons such as climate changes, depletion of resources, declining help from Iceland, lowered trade relations from black death and declining importance of Icelanding fish exports. After many harsh years, last remaining settlements there gave up of further continuing this agony. What could've been salvaged, was salvaged and ships filled with norse refugees are set to soon arrive in Iceland. What should we do about those norse refugees?"
+ vu_pagan.1.a:0 "They can settle freely in Iceland"
+ vu_pagan.1.b:0 "Those pagans must convert if they want to set foot in Iceland!"
+ vu_pagan.1.c:0 "They have to stay! We must attempt to save the colony!"
+ vu_pagan.1.tooltip:0 "Harsh treatment and religious repressions may trigger large rectionary uprising of outraged norse pagan communities!"
+ vu_pagan.2.t:0 "Norse communities demand privileges"
+ vu_pagan.2.d:0 "Iceland remains the last place still divided between those who converted to catholicism and those who remained with beliefs of the Vikings. The tensions are rising ever high as church is pushing its efforts to restrict and convert last pagans. Now the norse clanns threaten to revolt if we do not give them freedom."
+ vu_pagan.2.a:0 "Agree to their demands"
+ vu_pagan.2.b:0 "Those heretics must be purged"
+ vu_pagan.2.c:0 "Catholicism has failed, we shall return to old gods of our fathers"
+ vu_pagan.2.tooltip:0 "All catholic countries will be upset (-30) that we have turned to paganism"
  
