@@ -107,24 +107,24 @@ trade_company_danzig_trade = { #Prussian Charter
 		name = "TRADE_COMPANY_DANZIG_European_Trade_Company"
 	}
 }
-#trade_company_napoli={ #Neapolitan Charter
-#	color={
-#		137 45 176 
-#	}
-#	
-#	provinces = {
-#		354 355 356 357 1795 2326 2448 2449 2451 2452 2474 4567 5274 5303 5304 5306 5307 5309 5310 5311 6602 6603 6954 6955 6958 6959
-#	}
-#	
-#	# Specific
-#	# Generic
-#	names = {
-#		name = "TRADE_COMPANY_NAPOLI_Root_Culture_GetName"
-#	}
-#	names = {
-#		name = "TRADE_COMPANY_NAPOLI_European_Trade_Company"
-#	}
-#}
+trade_company_napoli = { #Neapolitan Charter
+	color={
+		137 45 176 
+	}
+	
+	provinces = {
+		354 355 356 357 1795 2326 2448 2449 2451 2452 2474 4567 5274 5303 5304 5306 5307 5309 5310 5311 6602 6603 6954 6955 6958 6959
+	}
+	
+	# Specific
+	# Generic
+	names = {
+		name = "TRADE_COMPANY_NAPOLI_Root_Culture_GetName"
+	}
+	names = {
+		name = "TRADE_COMPANY_NAPOLI_European_Trade_Company"
+	}
+}
 trade_company_porto_trade = { #Portuguese Charter
 	color={
 		57 160 101 

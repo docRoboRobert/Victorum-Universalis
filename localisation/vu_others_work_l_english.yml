@@ -1469,13 +1469,18 @@
  TRADE_COMPANY_POLYNESIA_Root_Culture_GetName:0 "[Root.Culture.GetName] Polynesian Company"
  TRADE_COMPANY_POLYNESIA_Trade_Company:0 "Polynesian Company"
  #
- #trade_company_xiyu:0 "Xiyu Charter"
- #TRADE_COMPANY_XIYU_Root_Culture_GetName:0 "[Root.Culture.GetName] Xiyu Company"
- #TRADE_COMPANY_XIYU_Asia_Trade_Company:0 "Xiyu Trade Company"
+ trade_company_napoli:0 "Mandate of Libya"
+ TRADE_COMPANY_NAPOLI_Root_Culture_GetName:0 "[Root.Culture.GetName] Libyan Mandate"
+ TRADE_COMPANY_NAPOLI_European_Trade_Company:0 "Libyan Mandate"
+ #
+ #NOT USED
  #
  #trade_company_korea:0 "Korean Charter"
  #TRADE_COMPANY_KOREA_Root_Culture_GetName:0 "[Root.Culture.GetName] Korean Company"
  #TRADE_COMPANY_KOREA_Asia_Trade_Company:0 "Korean Trade Company"
+ #trade_company_xiyu:0 "Xiyu Charter"
+ #TRADE_COMPANY_XIYU_Root_Culture_GetName:0 "[Root.Culture.GetName] Xiyu Company"
+ #TRADE_COMPANY_XIYU_Asia_Trade_Company:0 "Xiyu Trade Company"
  #trade_company_dongola_trade:0 "Sudan Charter"
  #TRADE_COMPANY_DONGOLA_Root_Culture_GetName:0 "[Root.Culture.GetName] Sudanese Company"
  #TRADE_COMPANY_DONGOLA_Africa_Trade_Company:0 "Sudanese Trade Company"
@@ -1494,9 +1499,6 @@
  #trade_company_danzig_trade:0 "Baltic Charter"
  #TRADE_COMPANY_DANZIG_Root_Culture_GetName:0 "[Root.Culture.GetName] Baltic Company"
  #TRADE_COMPANY_DANZIG_European_Trade_Company:0 "Baltic Trade Company"
- #trade_company_napoli:0 "Libyan Charter"
- #TRADE_COMPANY_NAPOLI_Root_Culture_GetName:0 "[Root.Culture.GetName] Libyan Company"
- #TRADE_COMPANY_NAPOLI_European_Trade_Company:0 "Libyan Trade Company"
  #trade_company_porto_trade:0 "Portuguese Charter"
  #TRADE_COMPANY_PORTO_Root_Culture_GetName:0 "[Root.Culture.GetName] Portuguese Company"
  #TRADE_COMPANY_PORTO_European_Trade_Company:0 "Portuguese Trade Company"
