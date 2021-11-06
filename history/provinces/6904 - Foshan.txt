@@ -1,4 +1,4 @@
-#6904 - Foshan
+#6904 - Fatshan
 
 owner = MNG
 controller = MNG
@@ -6,7 +6,7 @@ add_core = MNG
 add_core = YUE
 culture = hakka
 religion = confucianism
-capital = "Foshan"
+capital = "Fatshan"
 trade_goods = fruit
 hre = no
 base_tax = 2

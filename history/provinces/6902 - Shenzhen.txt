@@ -1,4 +1,4 @@
-#6902 - Shenzhen
+#6902 - Bou-on
 
 owner = MNG
 controller = MNG
@@ -6,7 +6,7 @@ add_core = MNG
 add_core = YUE
 culture = hakka
 religion = confucianism
-capital = "Shenzhen"
+capital = "Bou-on"
 trade_goods = cinnamon
 hre = no
 base_tax = 3

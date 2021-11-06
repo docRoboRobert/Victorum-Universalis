@@ -1708,7 +1708,7 @@ bay_of_fundy = {
 bunker_hill_monument = {
     start = 968
     
-    date = 1444.01.01 #1800.01.01 date built
+    date = 1800.01.01 #1800.01.01 date built
     
     time = {
         months = 0
@@ -1891,7 +1891,7 @@ bunker_hill_monument = {
 capitol_building = {
     start = 953
     
-    date = 1444.01.01 #1800.01.01
+    date = 1800.01.01 #1800.01.01
     
     time = {
         months = 0
@@ -3074,7 +3074,7 @@ fort_quebec = {
 	start = 994
 	
 	# date built in real life 
-	date = 1444.01.01# 1608.01.01 First fortifications
+	date = 1608.01.01# 1608.01.01 First fortifications
 	
 	#time to build
 	time = {
@@ -3665,7 +3665,7 @@ fort_ticonderoga = {
 	start = 2559
 	
 	# date built in real life 
-	date = 1444.01.01 #1755.01.01 First fortifications
+	date = 1755.01.01 #1755.01.01 First fortifications
 	
 	#time to build
 	time = {
@@ -5653,7 +5653,7 @@ hagatna = {
 harvard_university = {
     start = 968
     
-    date = 1444.01.01 #1636.01.01
+    date = 1636.01.01 #1636.01.01
     
     time = {
         months = 0
@@ -5836,7 +5836,7 @@ harvard_university = {
 independence_hall = {
     start = 956
     
-    date = 1444.01.01 #1753.01.01
+    date = 1753.01.01 #1753.01.01
     
     time = {
         months = 0
@@ -6217,7 +6217,7 @@ intramuros = {
 	start = 656
 	
 	# date built in real life 
-	date = 1444.01.01 #1571.01.01 First fortifications
+	date = 1571.01.01 #1571.01.01 First fortifications
 	
 	#time to build
 	time = {
@@ -7007,7 +7007,7 @@ l_anse_aux_meadows = {
 library_of_congress = {
     start = 953
     
-    date = 1444.01.01 #1800.01.01
+    date = 1800.01.01 #1800.01.01
     
     time = {
         months = 0
@@ -7191,7 +7191,7 @@ magellans_cross = {
 	start = 4352
 	
 	# date built in real life 
-	date = 1444.01.01 #1521.01.01 
+	date = 1521.01.01
 	
 	#time to build
 	time = {
@@ -10282,7 +10282,7 @@ port_royal = {
 	start = 487
 	
 	# date built in real life 
-	date = 1444.01.01 #1494.01.01
+	date = 1494.01.01 #1494.01.01
 	
 	#time to build
 	time = {
@@ -10306,7 +10306,7 @@ port_royal = {
 
 	#can we build it?
 	build_trigger = {	
-    is_year = 1444
+    is_year = 1494
 		OR = {
 			AND = {
 				tag = NSS
@@ -12303,7 +12303,7 @@ sydney_harbour = {
 	start = 1090
 	
 	# date built in real life 
-	date = 1444.01.01 #1788.01.01 in reality, should be able to build once anyone colonizes it
+	date = 1788.01.01 #1788.01.01 in reality, should be able to build once anyone colonizes it
 	
 	#time to build
 	time = {
@@ -12327,7 +12327,7 @@ sydney_harbour = {
 
 	#can we build it?
 	build_trigger = {	
-	is_year = 1444
+	is_year = 1788
 	}
 
 	#what to do when it's built
@@ -13431,7 +13431,7 @@ tikal = {
 victoria_harbour = {
     start = 7164
     
-    date = 1444.01.01 #1800.01.01  
+    date = 1800.01.01 #1800.01.01  
     
     time = {
         months = 0
@@ -13448,7 +13448,7 @@ victoria_harbour = {
     type = monument
 
     build_trigger = {
-		is_year = 1444	
+		is_year = 1800	
     }
 
     on_built = {

@@ -251,6 +251,8 @@
  desert_ranges_desc:0 "Hills, highlands and peaks located in deserted climate. This terrain combines downsides of both desert and mountain terrain type. Extreme temperatures, uneven terrain and scarse animal & plant life. This terrain is hostile to any permanent settlements."
  dry_highlands:0 "Dry Highlands"
  dry_highlands_desc:0 "Drylands located on elevated and uneven terrain. Hard, infertile soil, lack of lush vegetation, and hot envirorment filled with hills and rocks are not perfect conditions but definetely better than desert."
+ swamp:0 "Swamps"
+ swamp_desc:0 "A swamp is a forested wetland considered to be transition zones because both land and water play a role in creating this environment. Swamps also vary in size and are located all around the world."
  
  #
  #URBAN_PLACE_HOLDERS
@@ -1158,16 +1160,17 @@
  urban_weifang:0 "Weifang"
  urban_baoding:0 "Baoding"
  urban_shijianzhuang:0 "Shijianzhuang"
- urban_tangshan:0 "tangshan"
+ urban_shijianzhuang
+ urban_tangshan:0 "Tangshan"
  urban_dalian:0 "Dalian"
  urban_incheon:0 "Incheon"
  urban_gwangju:0 "Gwangju"
  urban_daegu:0 "Daegu"
- urban_jilin_city:0 "Jilin City "
+ urban_jilin_city:0 "Jilin"
  urban_changchun:0 "Changchun"
  urban_harbin:0 "Harbin"
  urban_vladivostok:0 "Vladivostok"
- urban_okinawa:0 "Okinawa"
+ urban_okinawa:0 "Naha"
  urban_kagoshima:0 "Kagoshima"
  urban_kumamoto:0 "Kumamoto"
  urban_matsuyama:0 "Matsuyama"

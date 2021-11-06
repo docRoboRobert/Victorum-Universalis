@@ -1,4 +1,4 @@
-#6908 - Yangjiang
+#6908 - Yeungkong
 
 owner = MNG
 controller = MNG
@@ -6,7 +6,7 @@ add_core = MNG
 add_core = YUE
 culture = chimin
 religion = confucianism
-capital = "Yangjiang"
+capital = "Yeungkong"
 trade_goods = sugar
 hre = no
 base_tax = 3
