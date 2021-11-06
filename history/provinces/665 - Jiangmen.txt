@@ -1,11 +1,11 @@
-#665 - Jiangmen
+#665 - Kongmoon
 
 owner = MNG
 controller = MNG
 add_core = MNG
 culture = cantonese
 religion = confucianism
-capital = "Jiangmen"
+capital = "Kongmoon"
 trade_goods = chinaware
 hre = no
 base_tax = 8 

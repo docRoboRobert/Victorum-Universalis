@@ -1,4 +1,4 @@
-#6912 - Zhaoqing
+#6912 - Shiuhing
 
 owner = MNG
 controller = MNG
@@ -6,7 +6,7 @@ add_core = MNG
 add_core = YUE
 culture = cantonese
 religion = confucianism
-capital = "Zhaoqing"
+capital = "Shiuhing"
 trade_goods = citrus
 hre = no
 base_tax = 3

@@ -1,4 +1,4 @@
-#6901 - Shanwei
+#6901 - Swabue
 
 owner = MNG
 controller = MNG
@@ -6,7 +6,7 @@ add_core = MNG
 add_core = YUE
 culture = hakka
 religion = confucianism
-capital = "Shanwei"
+capital = "Swabue"
 trade_goods = grain
 hre = no
 base_tax = 3

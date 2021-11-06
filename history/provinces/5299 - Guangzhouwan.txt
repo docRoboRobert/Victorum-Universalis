@@ -1,11 +1,11 @@
-#5299 - Guangzhouwan
+#5299 - Kwongchowwan
 
 owner = MNG
 controller = MNG
 add_core = MNG
 culture = chimin
 religion = confucianism
-capital = "Guangzhouwan"
+capital = "Kwongchowwan"
 trade_goods = sugar
 hre = no
 base_tax = 4
