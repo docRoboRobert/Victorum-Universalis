@@ -1,4 +1,4 @@
-#6899 - Shantou
+#6899 - Swatow
 
 owner = MNG
 controller = MNG
@@ -6,7 +6,7 @@ add_core = MNG
 add_core = MIN
 culture = chimin
 religion = confucianism
-capital = "Shantou"
+capital = "Swatow"
 trade_goods = tea
 hre = no
 base_tax = 2

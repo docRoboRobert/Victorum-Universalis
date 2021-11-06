@@ -1,4 +1,4 @@
-#6732 - Zhongshan
+#6732 - Heung-san
 
 owner = MNG
 controller = MNG
@@ -6,7 +6,7 @@ add_core = MNG
 add_core = YUE
 culture = cantonese
 religion = confucianism
-capital = "Zhongshan"
+capital = "Heung-san"
 trade_goods = pearls
 hre = no
 base_tax = 2 

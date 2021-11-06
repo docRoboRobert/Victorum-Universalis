@@ -2711,7 +2711,7 @@ spriteTypes = {
         texturefile = "gfx/interface/adelaide.dds"
     }
     spriteType = {                                                        
-        name = "GFX_combat_terrain_urban_melbourne"
+        name = "GFX_combat_terrain_urban_port_melbourne"
         texturefile = "gfx/interface/melbourne.dds"
     }
     spriteType = {                                                        
@@ -4611,8 +4611,8 @@ spriteTypes = {
         texturefile = "gfx/interface/baoding.dds"
     }
     spriteType = {                                                       
-        name = "GFX_combat_terrain_urban_shijiazhuang"
-        texturefile = "gfx/interface/shijiazhuang.dds"
+        name = "GFX_combat_terrain_urban_shijianzhuang"
+        texturefile = "gfx/interface/shijianzhuang.dds"
     }
     spriteType = {                                                       
         name = "GFX_combat_terrain_urban_tangshan"
@@ -4636,7 +4636,7 @@ spriteTypes = {
     }
     spriteType = {                                                       
         name = "GFX_combat_terrain_urban_jilin_city"
-        texturefile = "gfx/interface/jilin_city.dds"
+        texturefile = "gfx/interface/jilin.dds"
     }
     spriteType = {                                                       
         name = "GFX_combat_terrain_urban_changchun"
@@ -5332,7 +5332,7 @@ spriteTypes = {
     }
     spriteType = {                                                       
         name = "GFX_combat_terrain_urban_yogyakarta"
-        texturefile = "gfx/interface/yohyakarta.dds"
+        texturefile = "gfx/interface/yogyakarta.dds"
     }
     spriteType = {                                                       
         name = "GFX_combat_terrain_urban_semarang"

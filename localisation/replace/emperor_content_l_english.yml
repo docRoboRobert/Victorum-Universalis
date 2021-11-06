@@ -3114,36 +3114,22 @@
  desc_mary_inheritance_reforms:0 "We have reformed the laws of inheritance so that men and women have equal rights to the succession of titles."
  mary_reputation:0 "Crisis Averted"
  desc_mary_reputation:0 "The succession crisis is over. The world now sees that we have a strong ruler and a stable realm."
- ##############################
- # VU additions by San Felipe #
- ##############################
- trade_company_alexandria:0 "Mandate of Egypt"
- TRADE_COMPANY_ALEXANDRIA_Root_Culture_GetName:0 "[Root.Culture.GetName] Egyptian Mandate"
- TRADE_COMPANY_ALEXANDRIA_African_Trade_Company:0 "Egyptian Mandate"
  #
- trade_company_palestine:0 "Mandate of Palestine"
- TRADE_COMPANY_PALESTINE_Root_Culture_GetName:0 "[Root.Culture.GetName] Palestinian Mandate"
- TRADE_COMPANY_PALESTINE_Near_East_Trade_Company:0 "Palestinian Mandate"
- #
- trade_company_aleppo:0 "Mandate of Syria"
- TRADE_COMPANY_ALEPPO_Root_Culture_GetName:0 "[Root.Culture.GetName] Syrian Mandate"
- TRADE_COMPANY_ALEPPO_Near_East_Trade_Company:0 "Syrian Mandate"
- #
- trade_company_lebanon:0 "Mandate of Lebanon"
- TRADE_COMPANY_LEBANON_Root_Culture_GetName:0 "[Root.Culture.GetName] Lebanese Mandate"
- TRADE_COMPANY_LEBANON_Root_Culture_GetName:0 "Lebanese Mandate"
- #
- trade_company_jordan:0 "Mandate of Trans-Jordan"
- TRADE_COMPANY_JORDAN_Root_Culture_GetName:0 "[Root.Culture.GetName] Trans-Jordanian Mandate"
- TRADE_COMPANY_JORDAN_Near_East_Trade_Company:0 "Trans-Jordanian Mandate"
+ ####################################################
+ # EU4 vanilla Trade Companies and Colonial Regions #
+ ####################################################
  #
  trade_company_lahore:0 "Mandate of Punjab"
  TRADE_COMPANY_LAHORE_Root_Culture_GetName:0 "[Root.Culture.GetName] Punjabi Mandate"
  TRADE_COMPANY_LAHORE_Asia_Trade_Company:0 "Punjabi Mandate"
  #
- trade_company_persia:0 "Mandate of Persia"
- TRADE_COMPANY_PERSIA_Root_Culture_GetName:0 "[Root.Culture.GetName] Persian Mandate"
- TRADE_COMPANY_PERSIA_Near_East_Trade_Company:0 "Persian Mandate"
+ trade_company_aleppo:0 "Mandate of Syria"
+ TRADE_COMPANY_ALEPPO_Root_Culture_GetName:0 "[Root.Culture.GetName] Syrian Mandate"
+ TRADE_COMPANY_ALEPPO_Near_East_Trade_Company:0 "Syrian Mandate"
+ #
+ trade_company_alexandria:0 "Mandate of Egypt"
+ TRADE_COMPANY_ALEXANDRIA_Root_Culture_GetName:0 "[Root.Culture.GetName] Egyptian Mandate"
+ TRADE_COMPANY_ALEXANDRIA_African_Trade_Company:0 "Egyptian Mandate"
  #
  trade_company_basra:0 "Mandate of Mesopotamia"
  TRADE_COMPANY_BASRA_Root_Culture_GetName:0 "[Root.Culture.GetName] Mesopotamian Mandate"
@@ -3284,54 +3270,91 @@
  trade_company_girin:0 "Manchurian Charter"
  TRADE_COMPANY_GIRIN_Root_Culture_GetName:0 "[Root.Culture.GetName] Manchuria Company"
  TRADE_COMPANY_GIRIN_Asia_Trade_Company:0 "Manchuria Trade Company"
+ #
  trade_company_nippon:0 "Nippon Charter"
  TRADE_COMPANY_NIPPON_Root_Culture_GetName:0 "[Root.Culture.GetName] Nippon Company"
  TRADE_COMPANY_NIPPON_Asia_Trade_Company:0 "Nippon Trade Company"
+ #
  trade_company_yumen:0 "Mongolian Charter"
  TRADE_COMPANY_YUMEN_Root_Culture_GetName:0 "[Root.Culture.GetName] Mongolia Company"
  TRADE_COMPANY_YUMEN_Asia_Trade_Company:0 "Mongolia Trade Company"
+ #
  trade_company_xian:0 "Yellow River Charter"
  TRADE_COMPANY_XIAN_Root_Culture_GetName:0 "[Root.Culture.GetName] Yellow River Company"
  TRADE_COMPANY_XIAN_Asia_Trade_Company:0 "Yellow River Trade Company"
+ #
  trade_company_chengdu:0 "Sichuan Charter"
  TRADE_COMPANY_CHENGDU_Root_Culture_GetName:0 "[Root.Culture.GetName] Sichuan Company"
  TRADE_COMPANY_CHENGDU_Asia_Trade_Company:0 "Sichuan Trade Company"
+ #
  trade_company_lhasa:0 "Tibetan Charter"
  TRADE_COMPANY_LHASA_Root_Culture_GetName:0 "[Root.Culture.GetName] Tibet Company"
  TRADE_COMPANY_LHASA_Asia_Trade_Company:0 "Tibet Trade Company"
+ #
  #trade_company_timbuktu:0 "West African Charter"
  #TRADE_COMPANY_TIMBUKTU_Root_Culture_GetName:0 "[Root.Culture.GetName] West Africa Company"
  #TRADE_COMPANY_TIMBUKTU_African_Trade_Company:0 "West Africa Trade Company"
+ #
  #trade_company_alexandria:0 "Egyptian Charter"
  #TRADE_COMPANY_ALEXANDRIA_Root_Culture_GetName:0 "[Root.Culture.GetName] Egypt Company"
  #TRADE_COMPANY_ALEXANDRIA_African_Trade_Company:0 "Egypt Trade Company"
+ #
  #trade_company_katsina:0 "Niger Charter"
  #TRADE_COMPANY_KATSINA_Root_Culture_GetName:0 "[Root.Culture.GetName] Niger Company"
  #TRADE_COMPANY_KATSINA_African_Trade_Company:0 "Niger Trade Company"
+ #
  #trade_company_ethiopia:0 "Abyssinian Charter"
  #TRADE_COMPANY_ETHIOPIA_Root_Culture_GetName:0 "[Root.Culture.GetName] Abyssinia Company"
  #TRADE_COMPANY_ETHIOPIA_African_Trade_Company:0 "Abyssinian Trade Company"
+ #
  #trade_company_great_lakes:0 "Great Lakes Charter"
  #TRADE_COMPANY_GREAT_LAKES_Root_Culture_GetName:0 "[Root.Culture.GetName] Great Lakes Company"
  #TRADE_COMPANY_GREAT_LAKES_African_Trade_Company:0 "Great Lakes Trade Company"
+ #
  #trade_company_zambezi:0 "Zambezi Charter"
  #TRADE_COMPANY_ZAMBEZI_Root_Culture_GetName:0 "[Root.Culture.GetName] Zambezi Company"
  #TRADE_COMPANY_ZAMBEZI_African_Trade_Company:0 "Zambezi Trade Company"
+ #
  #trade_company_gulf_of_aden:0 "Madagascan Charter"
  #TRADE_COMPANY_GULF_OF_ADEN_Root_Culture_GetName:0 "[Root.Culture.GetName] Madagascan Company"
  #TRADE_COMPANY_GULF_OF_ADEN_African_Trade_Company:0 "Madagascan Trade Company"
+ #
  #trade_company_aleppo:0 "Levantine Charter"
  #TRADE_COMPANY_ALEPPO_Root_Culture_GetName:0 "[Root.Culture.GetName] Levant Company"
  #TRADE_COMPANY_ALEPPO_Near_East_Trade_Company:0 "Levant Trade Company"
+ #
  #trade_company_basra:0 "Mashriq Charter"
  #TRADE_COMPANY_BASRA_Root_Culture_GetName:0 "[Root.Culture.GetName] Mashriq Company"
  #TRADE_COMPANY_BASRA_Near_East_Trade_Company:0 "Mashriq Trade Company"
+ #
  #trade_company_persia:0 "Persian Charter"
  #TRADE_COMPANY_PERSIA_Root_Culture_GetName:0 "[Root.Culture.GetName] Persia Company"
  #TRADE_COMPANY_PERSIA_Near_East_Trade_Company:0 "Persia Trade Company"
+ #
  #trade_company_hormuz:0 "Hormuz Charter"
  #TRADE_COMPANY_HORMUZ_Root_Culture_GetName:0 "[Root.Culture.GetName] Hormuz Company"
  #TRADE_COMPANY_HORMUZ_Near_East_Trade_Company:0 "Hormuz Trade Company"
+ #
+ ############################################
+ # VU Trade Company additions by San Felipe #
+ ############################################
+ #
+ trade_company_palestine:0 "Mandate of Palestine"
+ TRADE_COMPANY_PALESTINE_Root_Culture_GetName:0 "[Root.Culture.GetName] Palestinian Mandate"
+ TRADE_COMPANY_PALESTINE_Near_East_Trade_Company:0 "Palestinian Mandate"
+ #
+ trade_company_lebanon:0 "Mandate of Lebanon"
+ TRADE_COMPANY_LEBANON_Root_Culture_GetName:0 "[Root.Culture.GetName] Lebanese Mandate"
+ TRADE_COMPANY_LEBANON_Root_Culture_GetName:0 "Lebanese Mandate"
+ #
+ trade_company_jordan:0 "Mandate of Trans-Jordan"
+ TRADE_COMPANY_JORDAN_Root_Culture_GetName:0 "[Root.Culture.GetName] Trans-Jordanian Mandate"
+ TRADE_COMPANY_JORDAN_Near_East_Trade_Company:0 "Trans-Jordanian Mandate"
+ #
+ trade_company_persia:0 "Mandate of Persia"
+ TRADE_COMPANY_PERSIA_Root_Culture_GetName:0 "[Root.Culture.GetName] Persian Mandate"
+ TRADE_COMPANY_PERSIA_Near_East_Trade_Company:0 "Persian Mandate"
+ #
  hirde_to_pope_tt:0 "The Pope has won a war while hiring Swiss condottiere"
  wine_bonus_prod:0 "Monastic Wineries"
  desc_wine_bonus_prod:0 "Our breweries are boosting the production of Wine in this province."

@@ -255,7 +255,7 @@ categories =  {
 			2348 5092 5161 7100 7110 7125 7126 7132 7134 7140 7163 7731 8454
 			
 			#VU Additions
-			1168 6572 6668 7316
+			1168 2139 6572 6668 7316 
 		}
 	}
 	
@@ -15936,7 +15936,7 @@ categories =  {
         local_build_time = -0.30
         local_build_cost = -0.25
 		terrain_override = {
-			2139
+			6819
 		}
     }
 	# China
@@ -15973,7 +15973,7 @@ categories =  {
 		}
     }
 	# China
-	urban_shijiazhuang = {
+	urban_shijianzhuang = {
 		color = { 177 156 217 }
         type = plains
         sound_type = plains

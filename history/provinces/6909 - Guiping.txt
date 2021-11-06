@@ -1,11 +1,11 @@
-#6909 - Guiping
+#6909 - Kweiping
 
 owner = MNG
 controller = MNG
 add_core = MNG
 culture = zhuang
 religion = confucianism
-capital = "Guiping"
+capital = "Kweiping"
 trade_goods = cinnamon
 hre = no
 base_tax = 2
