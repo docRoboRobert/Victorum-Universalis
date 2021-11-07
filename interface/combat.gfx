@@ -3191,6 +3191,18 @@ spriteTypes = {
         texturefile = "gfx/interface/miami.dds"
     }
     spriteType = {                                                        
+        name = "GFX_combat_terrain_urban_tortuga"
+        texturefile = "gfx/interface/tortuga.dds"
+    }
+	spriteType = {                                                        
+        name = "GFX_combat_terrain_urban_guantanamo"
+        texturefile = "gfx/interface/guantanamo.dds"
+    }
+	spriteType = {                                                        
+        name = "GFX_combat_terrain_urban_port_royal"
+        texturefile = "gfx/interface/port_royal.dds"
+    }
+	spriteType = {                                                        
         name = "GFX_combat_terrain_urban_tampa"
         texturefile = "gfx/interface/tampa.dds"
     }

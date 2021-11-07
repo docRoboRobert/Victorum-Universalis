@@ -13,7 +13,7 @@
 88 = "Artesië"
 89 = "Picardië"
 90 = "Brugge"
-91 = "Henegouwn"
+91 = "Bergen"
 92 = "Brabant"
 93 = "Luuk"
 94 = "Lutzenburgh"

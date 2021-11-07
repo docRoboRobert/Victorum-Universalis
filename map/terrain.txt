@@ -255,7 +255,7 @@ categories =  {
 			2348 5092 5161 7100 7110 7125 7126 7132 7134 7140 7163 7731 8454
 			
 			#VU Additions
-			1168 2139 6572 6668 7316 
+			1168 2139 5710 6572 6668 7316 
 		}
 	}
 	
@@ -11784,6 +11784,38 @@ categories =  {
 		}
     }
 	# America
+	urban_tortuga = {
+		color = { 177 156 217 }
+        type = plains
+        sound_type = plains
+        supply_limit = 10
+        movement_cost = 1.0
+        local_development_cost = -0.20
+        allowed_num_of_buildings = 4
+        nation_designer_cost_multiplier = 1.50
+        local_build_time = -0.30
+        local_build_cost = -0.25
+		terrain_override = {
+			5706
+		}
+    }
+	# America
+	urban_guantanamo = {
+		color = { 177 156 217 }
+        type = plains
+        sound_type = plains
+        supply_limit = 10
+        movement_cost = 1.0
+        local_development_cost = -0.20
+        allowed_num_of_buildings = 4
+        nation_designer_cost_multiplier = 1.50
+        local_build_time = -0.30
+        local_build_cost = -0.25
+		terrain_override = {
+			5707
+		}
+    }
+	# America
 	urban_new_orleans = {
 		color = { 177 156 217 }
         type = marsh
@@ -13607,7 +13639,7 @@ categories =  {
 		}
     }
 	# America
-	urban_kingston = {
+	urban_port_royal = {
 		color = { 177 156 217 }
         type = coastline
         sound_type = sea
@@ -13623,7 +13655,24 @@ categories =  {
 			487
 		}
     }
-		# America
+	# America
+	urban_kingston = {
+		color = { 177 156 217 }
+        type = coastline
+        sound_type = sea
+        supply_limit = 6
+        movement_cost = 1.10
+        local_development_cost = -0.10
+        allowed_num_of_buildings = 2
+        nation_designer_cost_multiplier = 1.4
+        defence = 2
+        local_build_time = 0.15
+        local_build_cost = 0.10
+		terrain_override = {
+			5709
+		}
+    }
+	# America
 	urban_port_au_prince = {
 		color = { 177 156 217 }
         type = hills
@@ -13673,7 +13722,7 @@ categories =  {
 			4621
 		}
     }
-		# America
+	# America
 	urban_san_juan = {
 		color = { 177 156 217 }
         type = hills
@@ -13749,7 +13798,6 @@ categories =  {
         supply_limit = 10
         movement_cost = 1.0
         local_development_cost = -0.30
-        
         allowed_num_of_buildings = 4
         nation_designer_cost_multiplier = 1.50
         local_build_time = -0.30
@@ -13802,7 +13850,6 @@ categories =  {
         supply_limit = 2
         movement_cost = 1.80
         local_development_cost = -0.30
-        
         allowed_num_of_buildings = 2
         nation_designer_cost_multiplier = 1.3
         defence = 2
@@ -13837,7 +13884,6 @@ categories =  {
         supply_limit = 2
         movement_cost = 1.80
         local_development_cost = -0.30
-        
         allowed_num_of_buildings = 2
         nation_designer_cost_multiplier = 1.3
         defence = 2
@@ -13907,7 +13953,6 @@ categories =  {
         supply_limit = 2
         movement_cost = 1.80
         local_development_cost = -0.30
-        
         allowed_num_of_buildings = 2
         nation_designer_cost_multiplier = 1.3
         defence = 2
@@ -13925,7 +13970,6 @@ categories =  {
         supply_limit = 1
         movement_cost = 2.5
         local_development_cost = -0.30
-        
         allowed_num_of_buildings = 1
         nation_designer_cost_multiplier = 1.00
         defence = 4
@@ -13944,7 +13988,6 @@ categories =  {
         supply_limit = 1
         movement_cost = 2.5
         local_development_cost = -0.30
-        
         allowed_num_of_buildings = 1
         nation_designer_cost_multiplier = 1.00
         defence = 4
