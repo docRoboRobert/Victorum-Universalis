@@ -275,6 +275,7 @@
 952 = { "James River" "Richmond" }
 953 = { "District of Columbia" "Washington" }
 956 = { "Philadelphia" "Philadelphia" }
+957 = { "Wilmington" "Wilmington" }
 958 = { "Buffalo" "Buffalo" }
 959 = { "Rochester" "Rochester" }
 960 = { "Oswego" "Oswego" }
