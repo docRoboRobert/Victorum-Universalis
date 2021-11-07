@@ -3844,6 +3844,10 @@ spriteTypes = {
     }
     spriteType = {                                                       
         name = "GFX_combat_terrain_urban_montgomery"
+        texturefile = "gfx/interface/montgomery.dds"
+    }
+	spriteType = {                                                       
+        name = "GFX_combat_terrain_urban_birmingham_al"
         texturefile = "gfx/interface/birmingham_al.dds"
     }
     spriteType = {                                                       
