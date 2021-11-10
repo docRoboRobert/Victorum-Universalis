@@ -241,6 +241,7 @@
  PROV1108:0 "Te Moana-a-toi"
  PROV1109:0 "Otago"
  PROV1110:0 "Agadir"
+ PROV1143:0 "Kandi"
  PROV1158:0 "Lac"
  PROV1168:0 "Mbengela"
  PROV1171:0 "Serra Chilengue"
@@ -269,6 +270,7 @@
  PROV1232:0 "Suakin"
  PROV1233:0 "Kharga"
  PROV1234:0 "Ibrim"
+ PROV1238:0 "Bougainville"
  PROV1247:0 "Ajaccio"
  PROV1253:0 "Lake Längelmävesi"
  PROV1261:0 "Lake Ladoga"
@@ -388,10 +390,13 @@
  PROV2019:0 "Pikhininmu"         #Nez Perces of the Snake River
  PROV2020:0 "Boho'inee"
  PROV2021:0 "Ramai"
- PROV2022:0 "K'íis Gwáayaay" #Xaayda 
+ PROV2022:0 "K'íis Gwáayaay" #Xaayda
+ PROV2023:0 "Lackawanna 
  PROV2143:0 "Huainan"
  PROV2154:0 "Ketangalan"
+ PROV2241:0 "Kindia"
  PROV2288:0 "Kanem"
+ PROV2292:0 "Djougou"
  PROV2296:0 "Dardanelles"
  PROV2297:0 "Magnesia"
  PROV2298:0 "Attalia"
@@ -825,6 +830,7 @@
  #PROV4787:0 "Ribatejo"
  #PROV4788:0 "Plasencia"
  #PROV4789:0 "Segovia"
+ PROV4879:0 "Guaxule"
  PROV4884:0 "Osyka"
  PROV5267:0 "Beni Suef"
  PROV6924:0 "Île Saint-Louis"

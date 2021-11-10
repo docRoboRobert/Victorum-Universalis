@@ -3166,9 +3166,9 @@ spriteTypes = {
         name = "GFX_combat_terrain_urban_washington"
         texturefile = "gfx/interface/washington.dds"
     }
-    spriteType = {                                                        
-        name = "GFX_combat_terrain_urban_jamestown"
-        texturefile = "gfx/interface/jamestown.dds"
+	spriteType = {                                                       
+        name = "GFX_combat_terrain_urban_norfolk_va"
+        texturefile = "gfx/interface/norfolk_va.dds"
     }
     spriteType = {                                                        
         name = "GFX_combat_terrain_urban_charlotte"
@@ -4438,6 +4438,14 @@ spriteTypes = {
         name = "GFX_combat_terrain_urban_kuwait_city"
         texturefile = "gfx/interface/kuwait_city.dds"
     }
+	spriteType = {                                                       
+        name = "GFX_combat_terrain_urban_novogrudok"
+        texturefile = "gfx/interface/novogrudok.dds"
+    }
+	spriteType = {                                                       
+        name = "GFX_combat_terrain_urban_gilnockie"
+        texturefile = "gfx/interface/gilnockie.dds"
+    }
     spriteType = {                                                       
         name = "GFX_combat_terrain_urban_erbil"
         texturefile = "gfx/interface/erbil.dds"
@@ -5161,6 +5169,14 @@ spriteTypes = {
     spriteType = {                                                       
         name = "GFX_combat_terrain_urban_halle"
         texturefile = "gfx/interface/halle.dds"
+    }
+	spriteType = {                                                       
+        name = "GFX_combat_terrain_urban_podole"
+        texturefile = "gfx/interface/podole.dds"
+    }
+	spriteType = {                                                       
+        name = "GFX_combat_terrain_urban_kremenets"
+        texturefile = "gfx/interface/kremenets.dds"
     }
     spriteType = {                                                       
         name = "GFX_combat_terrain_urban_erfurt"

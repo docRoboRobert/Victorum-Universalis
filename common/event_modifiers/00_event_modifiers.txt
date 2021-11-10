@@ -2,6 +2,13 @@
 #######################################
 # VU Additions - by San Felipe 1.31.3 #
 #######################################
+anarchic_riever_modifier = {
+    may_perform_slave_raid = yes
+    may_perform_slave_raid_on_same_religion = yes
+	local_tax_modifier = -0.1
+	global_tax_modifier = -0.15
+    picture = "border_reiver_icon"
+}
 
 ###########################
 #Estuaries - VU additions by San Felipe

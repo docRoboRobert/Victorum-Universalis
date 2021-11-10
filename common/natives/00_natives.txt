@@ -153,12 +153,12 @@ natives_american_ma = {
 		### START colonial_mexico from 00_colonial_regions.txt ###
 		
 			863 864 859 860 861 855 856 858 857 854 851 853 849 850 848 847 844
-			852 846 845 843 842 841 840 839 837 880 881 882 885 889 884 888
+			852 846 845 842 841 840 839 837 880 881 882 885 889 884 888
 			883 886 887 2496 2497 2498 2499 2500 2614 2615 2617 2618 2619
 			2621 2622 2623 2624 2626 2627 2628 2629 2630 2631 2632 2633 2634 2635 2636 2637 2638 2640
 			2641 2642 2643 2644 2645 2646 2647 2648 2649 2650 2651 2652 2653 2657 2661 2662
 			2665 2666 2667 2668 2669 
-			4631 4630 4628 4629 4627 4606 4644 4646 4648 4647 4645 4643 4642 4578 4640 4576 4579 4580 4575 4574 4573 4641 4572 4571 4570 4581 4583 4598 4582 4584 4585 4586 4587 4594 4589 4588 4590 4591 4593
+			4631 4630 4628 4629 4627 4606 4644 4646 4648 4647 4645 4643 4642 4578 4640 4576 4579 4580 4575 4574 4573 4641 4572 4571 4570 4581 4583 4598 4582 4584 4585 4586 4587 4594 4588 4590 4591 4593
 			#BeyondTypusNew
 			5063
 			#BeyondTypusNew
@@ -182,13 +182,13 @@ natives_american_sa = {
 		
 		### START colonial_cuba from 01_vu_colonial_regions.txt ###
 		
-			484 485 486 2654 2655 2656 4624 4622 4623 5572
+			484 485 486 2654 2655 2656 4624 4622 4623 5572 5707
 		
 		### END colonial_cuba ###
 		
 		### START colonial_hispaniola from 01_vu_colonial_regions.txt ###
 		
-			488 489 490 2658 2659 4619 5563 4618 5565 4620 5567 4621
+			488 489 490 2658 2659 4618 4619 4620 4621 5563 5565 5567 5706 5708
 		
 		### END colonial_hispaniola ###
 		
@@ -201,7 +201,7 @@ natives_american_sa = {
 		
 		### START colonial_the_carribean from 00_colonial_regions.txt ###
 		
-			487 491 492 493 494 495 496 497 498 499 500 501 502 1881 5578 5581 5582 5583 5584 5585 5586
+			491 492 493 494 495 496 497 498 499 500 501 502 1881 5578 5581 5582 5583 5584 5585 5586
 		
 		### END colonial_the_carribean ###
 		
@@ -328,11 +328,11 @@ natives_african = {
 		
 		### END colonial_angola ###
 		
-		### START colonial_beafada from 01_vu_colonial_regions.txt ###
+		### START colonial_bissau from 01_vu_colonial_regions.txt ### 
+			
+			1114 7368 7369 7370 7371 7372 7373 7374
 		
-			2241 
-		
-		### END colonial_beafada ###
+		### END colonial_bissau ###
 		
 		### START colonial_benin from 01_vu_colonial_regions.txt ###
 		
@@ -402,7 +402,7 @@ natives_african = {
 		
 		### START colonial_guinea from 01_vu_colonial_regions.txt ###
 		
-			1114 1117 1121 7368 7369 7370 7371 7372 7373 7374 7375 7376 7378 7382 
+			1117 1121 2241 5715 5716 7119 7121 7375 7376 7378 7382
 		
 		### END colonial_guinea ###
 		
@@ -623,7 +623,7 @@ natives_asian = {
 		
 		### START trade_company_hormuz from 00_trade_companies.txt ###
 		
-			383 384 385 386 387 388 389 390 391 392 393 394 395 396 397 398 399 400 401 402 403 404 1335 1779 2327 2328 2329 2330 2331 2332 2333 2335 2336 2337 2338 2339 2341 2342 2343 2344 2345 2346 2347 4268 4269 4272 4273 4274 4275 4276 4277 4278 4279 4280 4281 4282 4283 4284 4285 4286 4287 5231 5232 5233 5234 5235 5239 5241 5243 5244 5246 5249 5250 5251 5256 5333 5334 7458 7459 7461 7462 7463 7464 7465 7466 7467 7468 
+			383 384 385 386 387 388 389 390 391 392 393 394 395 396 397 398 399 400 401 402 403 404 1335 1779 2327 2328 2329 2330 2331 2332 2333 2335 2336 2337 2338 2339 2341 2342 2343 2344 2345 2346 2347 4268 4269 4272 4273 4274 4275 4276 4277 4278 4279 4280 4281 4282 4283 4284 4285 4286 4287 5231 5232 5233 5235 5239 5241 5243 5244 5246 5249 5250 5251 5256 5333 5334 7458 7459 7461 7462 7463 7464 7465 7466 7467 7468 
 		
 		### END trade_company_hormuz ###
 		
@@ -633,7 +633,7 @@ natives_asian = {
 		
 		### END trade_company_polynesia ###
 		
-		738 2154 2155 6984 6985 7162 8548 8549 8555 # Taiwan
+		    738 2154 2155 6984 6985 7162 8548 8549 8555 # Taiwan
 		
 		574 # The Andamans
 		8581 # Nicobar Islands
@@ -641,13 +641,13 @@ natives_asian = {
 		#VU additions by San Felipe
 		### START colonial_fiji from 01_vu_colonial_regions.txt ###
 		
-			1242 4937 4938
+			1242 4937 4938 5269 5270 5275
 		
 		### END colonial_fiji ###
 		
 		### START colonial_new_caledonia from 01_vu_colonial_regions.txt ###
 		
-			1986
+			1986 5262 5263 5265 5268
 		
 		### END colonial_new_caledonia ###
 		
@@ -659,15 +659,21 @@ natives_asian = {
 		
 		### START colonial_solomons from 01_vu_colonial_regions.txt ###
 		
-			1238
+			1238 5202 5204 5234 5236 5237 5238 5240 5242 5245 5247 5248
 		
 		### END colonial_solomons ###
 		
 		### START colonial_vanuatu from 01_vu_colonial_regions.txt ###
 		
-			1239
+			1239 5252 5253 5254 5257 5258 5259 5260
 		
 		### END colonial_vanuatu ###
+		
+		### START colonial_jamaica from 01_vu_colonial_regions.txt ###
+			
+			487 843 4589 5709 5710
+		
+		### END colonial_jamaica ###
 	}
 }
 

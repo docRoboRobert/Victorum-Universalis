@@ -1195,6 +1195,80 @@ holy_state_theocracy = {
 	}
 }
 
+church_of_france = {
+	# government mechanics flags go here
+	icon = "arcbishop_of_reims"
+	allow_normal_conversion = no
+	allow_convert = no
+	legacy_government = yes
+	valid_for_new_country = no
+	valid_for_nation_designer = no
+	rulers_can_be_generals = no
+
+	royal_marriage = no
+
+	different_religion_acceptance = -20
+	different_religion_group_acceptance = -50
+
+    fixed_rank = 2
+	religion = yes
+	monastic = yes
+	modifiers = {
+		legitimacy = 1
+        power_projection_from_insults = 0.1
+        global_tax_income = 12
+	}
+
+	conditional = {
+		allow = {
+			has_dlc = "Common Sense"
+		}
+
+		has_devotion = yes
+	}
+
+	ai = {
+		factor = 0
+	}
+}
+
+church_of_england = {
+	# government mechanics flags go here
+	icon = "arcbishop_of_canterbury"
+	allow_normal_conversion = no
+	allow_convert = no
+	legacy_government = yes
+	valid_for_new_country = no
+	valid_for_nation_designer = no
+	rulers_can_be_generals = no
+
+	royal_marriage = no
+
+	different_religion_acceptance = -20
+	different_religion_group_acceptance = -50
+
+    fixed_rank = 2
+	religion = yes
+	monastic = yes
+	modifiers = {
+		land_morale = 0.1
+        global_trade_power = 0.05
+        global_tax_modifier = 0.05
+	}
+
+	conditional = {
+		allow = {
+			has_dlc = "Common Sense"
+		}
+
+		has_devotion = yes
+	}
+
+	ai = {
+		factor = 0
+	}
+}
+
 papal_government = {
 	# government mechanics flags go here
 	icon = "pope"

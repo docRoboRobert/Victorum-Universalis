@@ -57,6 +57,52 @@ monastic_order_reform = {
 	fixed_rank = 1
 }
 
+church_of_france_reform = {
+    potential = {
+        tag = RHM
+    }
+
+    valid_for_nation_designer = no
+    icon = "reims"
+    allow_normal_conversion = yes
+    legacy_equivalent = church_of_france
+    allow_convert = no
+    lock_level_when_selected = yes
+    fixed_rank = 2
+    modifiers = {
+        legitimacy = 1
+        power_projection_from_insults = 0.1
+        global_tax_income = 12
+    }
+
+    custom_attributes = {
+        locked_government_type = yes
+    }
+}
+
+church_of_england_reform = {
+    potential = {
+        tag = ARC
+    }
+
+    valid_for_nation_designer = no
+    icon = "canterbury"
+    allow_normal_conversion = yes
+    legacy_equivalent = church_of_england
+    allow_convert = no
+    lock_level_when_selected = yes
+    fixed_rank = 2
+    modifiers = {
+        land_morale = 0.1
+        global_trade_power = 0.05
+        global_tax_modifier = 0.05
+    }
+
+    custom_attributes = {
+        locked_government_type = yes
+    }
+}
+
 papacy_reform = {
 	potential = {
 		tag = PAP
