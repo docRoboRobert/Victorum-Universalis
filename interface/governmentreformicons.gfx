@@ -88,6 +88,22 @@ spriteTypes = {
 		texturefile = "gfx//interface//government_reform_icons//religious_leader.dds"
 	}
 	spriteType = {
+		name = "government_reform_reims"
+		texturefile = "gfx//interface//government_reform_icons//reims.dds"
+	}
+	spriteType = {
+		name = "government_reform_arcbishop_of_reims"
+		texturefile = "gfx//interface//government_reform_icons//arcbishop_of_reims.dds"
+	}
+	spriteType = {
+		name = "government_reform_canterbury"
+		texturefile = "gfx//interface//government_reform_icons//canterbury.dds"
+	}
+	spriteType = {
+		name = "government_reform_arcbishop_of_canterbury"
+		texturefile = "gfx//interface//government_reform_icons//arcbishop_of_canterbury.dds"
+	}
+	spriteType = {
 		name = "government_reform_rioting_burning"
 		texturefile = "gfx//interface//government_reform_icons//rioting_burning.dds"
 	}
@@ -265,6 +281,25 @@ spriteTypes = {
 	spriteType = {
 		name = "government_reform_religious_leader_highlighted"
 		texturefile = "gfx//interface//government_reform_icons//religious_leader_highlighted.dds"
+	}
+	
+	spriteType = {
+		name = "government_reform_reims_highlighted"
+		texturefile = "gfx//interface//government_reform_icons//reims_highlighted.dds"
+	}
+	spriteType = {
+		name = "government_reform_arcbishop_of_reims_highlighted"
+		texturefile = "gfx//interface//government_reform_icons//arcbishop_of_reims_highlighted.dds"
+	}
+	
+	spriteType = {
+		name = "government_reform_canterbury_highlighted"
+		texturefile = "gfx//interface//government_reform_icons//canterbury_highlighted.dds"
+	}
+	
+	spriteType = {
+		name = "government_reform_arcbishop_of_canterbury_highlighted"
+		texturefile = "gfx//interface//government_reform_icons//arcbishop_of_canterbury_highlighted.dds"
 	}
 
 	spriteType = {

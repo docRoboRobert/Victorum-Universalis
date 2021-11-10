@@ -1,10 +1,10 @@
-# No previous file for Kituwah
+#4879 - Guaxule 
 
 owner = CHE
 controller = CHE
 culture = cherokee
 religion = totemism
-capital = "Kituwah"
+capital = "Guaxule"
 trade_goods = tobacco
 hre = no
 base_tax = 2 

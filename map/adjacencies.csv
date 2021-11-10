@@ -143,10 +143,41 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 5817;4934;sea;1697;-1;-1;-1;-1;Lanai-Maui
 5029;4934;sea;1697;-1;-1;-1;-1;Molokai-Maui
 5817;1240;sea;1697;-1;-1;-1;-1;Maui-Hawaii
-1242;4937;sea;1431;-1;-1;-1;-1;Viti Levu-Lau
-1242;4938;sea;1431;-1;-1;-1;-1;Viti Levu-Vanua Levu
-4938;4937;sea;1431;-1;-1;-1;-1;Vanua Levu-Lau
-2720;1236;sea;1405;-1;-1;-1;-1;Lae-Rabaul
+5276;2723;sea;1410;-1;-1;-1;-1;Dolok-Yos Sudarso
+2719;5132;sea;1405;-1;-1;-1;-1;Madang-Kar Kar
+2719;5136;sea;1405;-1;-1;-1;-1;Madang-Umboi
+5136;5133;sea;1405;-1;-1;-1;-1;Umboi-Long Island
+5136;1236;sea;1405;-1;-1;-1;-1;Umboi-Rabaul
+1236;5148;sea;1405;-1;-1;-1;-1;Rabaul-New Ireland
+5148;5099;sea;1405;-1;-1;-1;-1;New Ireland-New Hannover
+1237;5169;sea;1406;-1;-1;-1;-1;Hanuabada-Normanby
+5169;5166;sea;1406;-1;-1;-1;-1;Normanby-Fergusson
+5166;5160;sea;1406;-1;-1;-1;-1;Fergusson-Goodenough
+5179;5183;sea;1406;-1;-1;-1;-1;Misima-Sudest
+5183;5179;sea;1406;-1;-1;-1;-1;Sudest-Rossel
+1239;5258;sea;1430;-1;-1;-1;-1;Vanuatu-Malekula
+5254;5257;sea;1430;-1;-1;-1;-1;Ambae-Ambrym
+5257;5258;sea;1430;-1;-1;-1;-1;Ambrym-Malekula
+5257;5259;sea;1430;-1;-1;-1;-1;Ambrym-Epi
+5262;5263;sea;1430;-1;-1;-1;-1;Erromango-Tana
+5265;5268;sea;1430;-1;-1;-1;-1;Lifou-Mare
+1242;4938;sea;1431;-1;-1;-1;-1;Viti-Vanua Levu
+4938;5269;sea;1431;-1;-1;-1;-1;Vanua-Taveuni
+5269;4937;sea;1431;-1;-1;-1;-1;Taveuni-Lau
+1242;5269;sea;1431;-1;-1;-1;-1;Viti-Taveuni
+1242;5270;sea;1431;-1;-1;-1;-1;Viti-Kadavu
+4937;5275;sea;1431;-1;-1;-1;-1;Lau-Matuku
+1238;5202;sea;1432;-1;-1;-1;-1;Bougainville-Choiseul
+5202;5204;sea;1432;-1;-1;-1;-1;Choiseul-Vella Lavella
+5202;5240;sea;1432;-1;-1;-1;-1;Choiseul-Santa Isabel
+5240;5245;sea;1432;-1;-1;-1;-1;Santa Isabel-Nggela
+5245;5242;sea;1432;-1;-1;-1;-1;Nggela-Guadalcanal
+5245;5247;sea;1432;-1;-1;-1;-1;Nggela-Malaita
+5247;5248;sea;1432;-1;-1;-1;-1;Nggela-San Christobal
+5204;5234;sea;1432;-1;-1;-1;-1;Vella Lavella-Kolombangara
+5234;5236;sea;1432;-1;-1;-1;-1;Kolombangara-New Georgia
+5236;5237;sea;1432;-1;-1;-1;-1;New Georgia-Rendova
+5236;5238;sea;1432;-1;-1;-1;-1;New Georgia-Vangunu
 1088;6199;sea;7352;-1;-1;-1;-1;Wergaia - Barundji
 1001;5039;sea;1661;-1;-1;-1;-1;Soto-Manidoowaaling
 911;1001;sea;1663;-1;-1;-1;-1;Menominee-Sault
@@ -170,8 +201,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 741;5579;sea;1520;-1;-1;-1;-1;Cumana-Waikeri
 484;4622;sea;1518;-1;-1;-1;-1;Havana-Siwanea
 4624;4622;sea;1518;-1;-1;-1;-1;Guanahatabey-Siwanea
-2022;5865;sea;1559;-1;-1;-1;-1;Haida-Taan
-5865;5866;sea;1559;-1;-1;-1;-1;Taan-Ketchikan
 2219;5255;sea;1334;-1;-1;-1;-1;Bandar Langeh-Kish
 333;4560;sea;1295;-1;-1;-1;-1;The Baleares-Ibiza
 333;4559;sea;1300;-1;-1;-1;-1;The Baleares-Menorca

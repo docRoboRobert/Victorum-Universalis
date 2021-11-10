@@ -40,6 +40,7 @@
 4625 = { "San Augustine" "San Augustine" }
 5755 = { "Portland" "Portland" }
 5855 = { "Los Angeles" "Los Angeles" }
+6005 = { "Santa Lucia" "Fuerte de Santa Lucia" }
 
 #Atlantic
 1098 = "Isla Santa Elena"

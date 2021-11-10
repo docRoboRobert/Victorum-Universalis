@@ -94,7 +94,10 @@ province_event = {
 	picture = COLONIZATION_eventPicture
 	
 	trigger = {
-		colonial_region = colonial_cape
+	    OR = {
+			colonial_region = colonial_cape
+			colonial_region = colonial_namibia
+		}
 		owner = {
             culture_group = low_franconian
 		}
@@ -295,7 +298,10 @@ province_event = {
 	picture = COLONIZATION_eventPicture
 	
 	trigger = {
-		colonial_region = colonial_cape
+		OR = {
+			colonial_region = colonial_cape
+			colonial_region = colonial_namibia
+		}
 		owner = {
 			culture_group = germanic
 		}

@@ -1,8 +1,3 @@
-
-#Beyond Typus work done by all contributors other than Draiocht
-# For specific government types
-# Will pick the first valid one it finds in list
-
 ##################################################################################################
 ##################################################################################################
 ##################################################################################################
@@ -29,6 +24,46 @@ andorran_principality = {
         government = monarchy
         NOT = { has_reform = revolutionary_empire_reform }
     }
+}
+
+church_of_england = {
+    rank = {
+        1 = ENGLISH_BISHOPRIC
+        2 = ENGLISH_ARCHBISHOPRIC
+        3 = ENGLISH_METROPOLITAN
+    }
+    
+    ruler_male = {
+        1 = ENGLISH_BISHOP
+        2 = ENGLISH_ARCHBISHOP
+        3 = ENGLISH_CARDINAL
+    }
+	
+	trigger = {
+	    primary_culture = english
+        has_reform = church_of_england_reform
+        NOT = { has_reform = revolutionary_empire_reform }
+	}
+}
+
+church_of_france = {
+    rank = {
+        1 = FRENCH_BISHOPRIC
+        2 = FRENCH_ARCHBISHOPRIC
+        3 = FRENCH_METROPOLITAN
+    }
+    
+    ruler_male = {
+        1 = FRENCH_BISHOP
+        2 = FRENCH_ARCHBISHOP
+        3 = FRENCH_CARDINAL
+    }
+	
+    trigger = {
+	    culture_group = french
+		has_reform = church_of_france_reform
+		NOT = { has_reform = revolutionary_empire_reform }
+	}
 }
 
 principality_of_orange = {
@@ -103,6 +138,61 @@ principality_of_wales = {
         primary_culture = welsh
         has_reform = welsh_principality
     }
+}
+
+scottish_vassal_monarchy = {
+	rank = {
+		1 = EARLDOM
+		2 = KINGDOM
+		3 = EMPIRE
+	}	
+	
+	ruler_male = {
+		1 = LORD
+		2 = KING
+		3 = EMPEROR
+	}
+	
+	ruler_female = {
+		1 = LADY
+		2 = QUEEN	
+		3 = EMPRESS
+	}
+	
+	consort_male = {
+		1 = EARLDOM
+		2 = KING
+		3 = EMPEROR
+	}
+
+	consort_female = {
+		1 = LADY
+		2 = QUEEN	
+		3 = EMPRESS
+	}
+	
+	heir_male = {
+		1 = HEIR
+		2 = PRINCE
+		3 = PRINCE
+	}
+
+	heir_female = {
+		1 = HEIRESSBTP
+		2 = PRINCESS
+		3 = PRINCESS
+	}
+	
+	trigger = {
+		government = monarchy
+		overlord = {
+		    OR = {
+			    primary_culture = highland_scottish
+				primary_culture = scottish
+			}
+		}
+		NOT = { has_reform = revolutionary_empire_reform }
+	}
 }
 
 english_kingdom = {
@@ -193,6 +283,377 @@ restoration = {
 	
 	trigger = {
 		has_reform = restoration_reform
+	}
+}
+
+abbacy = {
+	rank = {
+		1 = PRINCEABBACY
+		2 = ARCHBISHOPRIC
+		3 = PATRIARCHATE
+	}
+	
+	ruler_male = {
+		1 = PRINCEABBOT
+		2 = ARCHBISHOP
+		3 = PATRIARCH
+	}
+	
+	ruler_female = {
+		1 = PRINCEABBOT_fem
+		2 = ARCHBISHOP_fem
+		3 = MATRIARCH
+	}
+	
+	trigger = {
+		tag = FLD
+		government = theocracy
+	}
+}
+
+################
+# Doc Robert's #
+################
+icelandic_vassal = {
+	rank = {
+		1 = VICEROYALTY
+		2 = VICEROYALTY
+		3 = VICEROYALTY
+	}
+	
+	ruler_male = {
+		1 = ICEGOVERNR
+		2 = ICEGOVERNR
+		3 = ICEGOVERNR
+	}
+
+	ruler_female = {
+		1 = GOVERNESS
+		2 = GOVERNESS	
+		3 = GOVERNESS
+	}
+
+	trigger = {
+		tag = ICE
+		is_subject = yes
+	}
+}
+
+######
+# BT # 
+######
+
+gov_puppet_kingdom_of_ireland = { #For released anglo-Ireland under England or similar.
+	rank = {
+		2 = KINGDOM
+	}	
+	
+	ruler_male = {
+		2 = BTLORDLIEUTENANT
+	}
+	
+	ruler_female = {
+		2 = BTLORDLIEUTENANTFEMALE	
+	}
+	
+	consort_male = {
+		2 = BTLORDLIEUTENANT
+	}
+
+	consort_female = {
+		2 = BTLORDLIEUTENANTFEMALE
+	}
+	
+	heir_male = {
+		2 = BTHEIRAPPARENT
+	}
+
+	heir_female = {
+		2 = BTHEIRAPPARENT
+	}
+
+	trigger = {
+		has_reform = puppet_kingdom_reform
+	}
+}
+
+gov_transitional_government_ireland = { #Something to do with viceroyalty anglo-Ireland or something.
+	rank = {
+		1 = DUCHY
+		2 = KINGDOM
+		3 = EMPIRE
+	}
+	
+	ruler_male = {
+		1 = DUKE
+		2 = BTTRANSITIONALKING
+		3 = EMPEROR
+	}
+	
+	ruler_female = {
+		1 = DUCHESS
+		2 = QUEEN	
+		3 = EMPRESS
+	}
+	
+	consort_male = {
+		1 = DUKE
+		2 = KING
+		3 = EMPEROR
+	}
+
+	consort_female = {
+		1 = DUCHESS
+		2 = QUEEN	
+		3 = EMPRESS
+	}
+	
+	heir_male = {
+		1 = HEIR
+		2 = PRINCE
+		3 = PRINCE
+	}
+
+	heir_female = {
+		1 = HEIRESSBTP
+		2 = PRINCESS
+		3 = PRINCESS
+	}
+	
+	trigger = {
+		has_reform = transitional_government_reform
+	}
+}
+
+gov_irish_clann = { #Starting Irish minors
+	rank = {
+		1 = CLANN
+	}
+	
+	ruler_male = {
+		1 = RI
+	}
+	
+	ruler_female = {
+		1 = BANRION
+	}
+	
+	consort_male = {
+		1 = FEARNABANRION
+	}
+
+	consort_female = {
+		1 = BANANRI
+	}
+	
+	heir_male = {
+		1 = TANAISTE
+	}
+
+	heir_female = {
+		1 = BANTANAISTE
+	}
+	
+	trigger = {
+		has_reform = irish_clann_reform
+	}
+}
+
+gov_provincial_kingdom = { #Provincial Kingdom formables Munster, Leinster, Ulster & Connacht, by Irish
+	rank = {
+		1 = PROVKINGDOM
+	}
+	
+	ruler_male = {
+		1 = RIRUIR
+	}
+	
+	ruler_female = {
+		1 = BANRIONRUIR
+	}
+	
+	consort_male = {
+		1 = FEARNABANRION
+	}
+
+	consort_female = {
+		1 = BANANRI
+	}
+	
+	heir_male = {
+		1 = TANAISTE
+	}
+
+	heir_female = {
+		1 = BANTANAISTE
+	}
+	
+	trigger = {
+		has_reform = provincial_kingdom_reform
+	}
+}
+
+gov_high_kingship = { #Irish Ireland, pretty much. Tanistry.
+	rank = {
+		1 = PROVKINGDOM
+		2 = KINGDOM
+		3 = EMPIRE
+	}
+	
+	ruler_male = {
+		1 = RIRUIR
+		2 = ARDRI
+		3 = ARDRI
+	}
+	
+	ruler_female = {
+		1 = BANRIONRUIR
+		2 = ARDBANRION
+		3 = ARDBANRION
+	}
+	
+	consort_male = {
+		1 = FEARNABANRION
+		2 = FEARNAARDBANRION
+		3 = FEARNAARDBANRION
+	}
+
+	consort_female = {
+		1 = BANANRI
+		2 = BANANARDRI
+		3 = BANANARDRI
+	}
+	
+	heir_male = {
+		1 = TANAISTE
+		2 = TANAISTE
+		3 = TANAISTE
+	}
+
+	heir_female = {
+		1 = BANTANAISTE
+		2 = BANTANAISTE
+		3 = BANTANAISTE
+	}
+	
+	trigger = {
+		has_reform = tanistry_reform
+	}
+}
+
+gov_norman_lordship = { #Starting Old English minors.
+	rank = {
+		1 = EARLDOM
+	}
+	
+	ruler_male = {
+		1 = EARL
+	}
+	
+	ruler_female = {
+		1 = LADY
+	}
+	
+	consort_male = {
+		1 = LORD
+	}
+
+	consort_female = {
+		1 = LADY
+	}
+	
+	heir_male = {
+		1 = HEIR
+	}
+
+	heir_female = {
+		1 = HEIRESSBTP
+	}
+	
+	trigger = {
+		has_reform = norman_lordship_reform
+	}
+}
+
+gov_norman_duchy = { #Norma Duchy formables Munser, Leinster, Ulster & Connacht, by Old English
+	rank = {
+		1 = DUCHY
+	}
+	
+	ruler_male = {
+		1 = DUKE
+	}
+	
+	ruler_female = {
+		1 = DUCHESS
+	}
+	
+	consort_male = {
+		1 = DUKE
+	}
+
+	consort_female = {
+		1 = DUCHESS
+	}
+	
+	heir_male = {
+		1 = HEIR
+	}
+
+	heir_female = {
+		1 = HEIRESSBTP
+	}
+	
+	trigger = {
+		has_reform = norman_duchy_reform
+	}
+}
+
+gov_anglo_irish_monarchy = { #Anglo-Ireland, pretty much.
+	rank = {
+		1 = DUCHY
+		2 = KINGDOM
+		3 = EMPIRE
+	}	
+	
+	ruler_male = {
+		1 = DUKE
+		2 = KING
+		3 = EMPEROR
+	}
+	
+	ruler_female = {
+		1 = DUCHESS
+		2 = QUEEN	
+		3 = EMPRESS
+	}
+	
+	consort_male = {
+		1 = DUKE
+		2 = KING
+		3 = EMPEROR
+	}
+
+	consort_female = {
+		1 = DUCHESS
+		2 = QUEEN	
+		3 = EMPRESS
+	}
+	
+	heir_male = {
+		1 = HEIR
+		2 = PRINCE
+		3 = PRINCE
+	}
+
+	heir_female = {
+		1 = HEIRESSBTP
+		2 = PRINCESS
+		3 = PRINCESS
+	}
+	
+	trigger = {
+		has_reform = anglo_irish_monarchy_reform
 	}
 }
 

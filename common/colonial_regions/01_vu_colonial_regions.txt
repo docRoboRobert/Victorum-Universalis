@@ -784,7 +784,7 @@ colonial_cuba = {
 	}
 
 	provinces = {
-		484 485 486 2654 2655 2656 4624 4622 4623 5572
+		484 485 486 2654 2655 2656 4624 4622 4623 5572 5707
 	}
 
 	# Specific
@@ -892,7 +892,7 @@ colonial_hispaniola = {
 	}
 
 	provinces = {
-		488 489 490 2658 2659 4619 5563 4618 5565 4620 5567 4621
+		488 489 490 2658 2659 4618 4619 4620 4621 5563 5565 5567 5706 5708
 	}
 
 	# Specific
@@ -2158,12 +2158,12 @@ colonial_gabon = {
 	
 	# Generic
 	names = {
-		name = "COLONIAL_KONGO_Kongo"
+		name = "COLONIAL_GABON_Gabon"
 	}
 }
 
-# Beafada
-colonial_beafada = {
+# Bissau
+colonial_bissau = {
 	color = { 247 206 88 }
 
 	# Random New World
@@ -2186,12 +2186,12 @@ colonial_beafada = {
 	}
 
 	provinces = {
-		2241
+		1114 7368 7369 7370 7371 7372 7373 7374
 	}
 	
 	# Generic
 	names = {
-		name = "COLONIAL_BEAFADA_Beafada"
+		name = "COLONIAL_BISSAU_Bissau"
 	}
 }
 
@@ -2257,7 +2257,7 @@ colonial_central_africa = {
 	}
 
 	provinces = {
-		2932 7477
+		2932 7131 7153 7477 7713 
 	}
 	
 	# Generic
@@ -2577,7 +2577,7 @@ colonial_ghana = {
 	}
 
 	provinces = {
-		1138 1139 2254 2255 2256 2257 2258 2267 
+		1138 1139 2254 2255 2256 2257 2258 2267 5718 5719
 	}
 	
 	# Generic
@@ -2611,7 +2611,7 @@ colonial_togo = {
 	}
 
 	provinces = {
-		1140 2295 
+		1140 2295 7069 7073 7116
 	}
 	
 	# Generic
@@ -2646,7 +2646,7 @@ colonial_benin = {
 	}
 
 	provinces = {
-		1141 1143 2291 2292  
+		1141 1143 2291 2292 5720 5721 7103 7104 7105 
 	}
 	
 	# Generic
@@ -2680,7 +2680,7 @@ colonial_guinea = {
 	}
 
 	provinces = {
-		1114 1117 1121 7368 7369 7370 7371 7372 7373 7374 7375 7376 7378 7382 
+		1117 1121 2241 5715 5716 7119 7121 7375 7376 7378 7382   
 	}
 	
 	# Generic
@@ -2746,7 +2746,7 @@ colonial_sierra_leone = {
 	}
 
 	provinces = {
-		1118 7379 7380 7381 
+		1118 5717 7379 7380 7381 
 	}
 	
 	# Generic
@@ -3021,7 +3021,7 @@ colonial_papua = {
 	}
 
 	provinces = {
-		1236 1237 1245 2718 2719 2720 2721 2722 2723 2724 
+		1236 1237 1245 2718 2719 2720 2721 2722 2723 2724 5090 5099 5132 5133 5136 5148 5153 5159 5160 5166 5169 5179 5183 5199 5276
 	}
 	
 	# Generic
@@ -3054,7 +3054,7 @@ colonial_solomons = {
 	}
 
 	provinces = {
-		1238
+		1238 5202 5204 5234 5236 5237 5238 5240 5242 5245 5247 5248
 	}
 	
 	# Generic
@@ -3087,7 +3087,7 @@ colonial_vanuatu = {
 	}
 
 	provinces = {
-		1239
+		1239 5252 5253 5254 5257 5258 5259 5260
 	}
 	
 	# Generic
@@ -3120,7 +3120,7 @@ colonial_new_caledonia = {
 	}
 
 	provinces = {
-		1986
+		1986 5262 5263 5265 5268
 	}
 	
 	# Generic
@@ -3153,11 +3153,44 @@ colonial_fiji = {
 	}
 
 	provinces = {
-		1242 4937 4938
+		1242 4937 4938 5269 5270 5275
 	}
 	
 	# Generic
 	names = {
 		name = "COLONIAL_FIJI_Fiji"
+	}
+}
+
+# Jamaica
+colonial_jamaica = {
+	color = { 237 1 64 }
+
+	# Random New World
+	tax_income = 0
+	native_size = 10
+	native_ferocity = 1
+	native_hostileness = 3
+
+	trade_goods = {
+	    sugar = 10
+	    fish = 10
+	}
+
+	culture = {
+		west_taino = 10
+	}
+
+	religion = {
+		animism = 10
+	}
+
+	provinces = {
+		487 843 4589 5709 5710
+	}
+	
+	# Generic
+	names = {
+		name = "COLONIAL_JAMAICA_Jamaica"
 	}
 }

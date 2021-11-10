@@ -6,7 +6,7 @@ latent_trade_goods = {
 
 culture = powhatan
 religion = totemism
-capital = "Monasukapanough"
+capital = "Saponi"
 trade_goods = unknown
 hre = no
 base_tax = 1 
@@ -22,14 +22,15 @@ discovered_by = north_american
 
 1444.1.1 = { tribal_owner = TSC }
 1607.1.1 = { discovered_by = ENG } # John Smith
-1755.1.1 = {
+1757.1.1 = {
 	owner = GBR
 	controller = GBR
 	add_core = GBR
 	capital = "Charlottesville"
 	trade_goods = tobacco
 	culture = english
-	religion = protestant 
+	religion = protestant
+	capital = "Lynchburg"
 }
 1764.7.1 = {
 	culture = american

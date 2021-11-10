@@ -12,14 +12,12 @@ native_size = 10
 native_ferocity = 2
 native_hostileness = 7
 
-
-
 discovered_by = north_american
 
 1669.1.1 = { discovered_by = ENG } # John Lederer
 1707.5.12 = { discovered_by = GBR }
 
-1730.1.1 = {
+1737.1.1 = {
 	discovered_by = GBR
 	owner = GBR
 	controller = GBR
@@ -28,6 +26,7 @@ discovered_by = north_american
 	religion = protestant
 	trade_goods = iron
 	is_city = yes
+	capital = "Rocktown"
 } # Settlement of the Shenandoah Valley
 1764.7.1 = {
 	culture = american
