@@ -1,8 +1,8 @@
-#1238 - Solomon Islands
+#1238 - Bougainville Islands
 
 culture = polynesian
 religion = animism
-capital = "Solomon"
+capital = "Buka"
 trade_goods = unknown
 hre = no
 base_tax = 2  

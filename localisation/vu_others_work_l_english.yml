@@ -328,6 +328,12 @@
  #Generic
  western_principality:0 "Principality"
  western_principality_desc:0 "A Principality consists of territory ruled over by a Prince or Princess, vested in the same rites and rituals "equal to a King" ruling over a Princedom. The powers of a Prince may sometimes be gained through hereditary or electoral means. In other words, a Prince or Princess may come to power if he or she is descended from the previous ruler or is elected by court and local nobility."
+ #Church of England
+ church_of_england:0 "Archbishop of Canterbury"
+ church_of_england_desc:0 "The Archbishop of Canterbury is the senior bishop and principal leader of the Church in England, and the diocesan bishop of the Diocese of Canterbury. He is also responsible for the crowing of the Kings and Queens of England."
+ #Church of France
+ church_of_france:0 "Archbishop of Reims"
+ church_of_france_desc:0 "The Archbishop of Reims is the senior bishop and principal leader of the Church in France, and the diocesan bishop of the Diocese of Reims. He is also responsible for the crowing of the Kings and Queens of France."
  #MONARCHIES
  #Belgium
  belgian_kingdom_reform:0 "Belgian Monarchy"
@@ -1334,6 +1340,11 @@
  COLONIAL_GHANA_Ghana:0 "Ghana"
  COLONIAL_GHANA_Ghana_ADJ:0 "Ghanaian"
  #
+ colonial_gabon:0 "Colonial Gabon"
+ short_colonial_gabon:0 "Gabon"
+ COLONIAL_GABON_Gabon:0 "Gabon"
+ COLONIAL_GABON_Gabon_ADJ:0 "Gabonese"
+ #
  colonial_togo:0 "Colonial Togo"
  short_colonial_togo:0 "Togo"
  COLONIAL_TOGO_Togo:0 "Togo"
@@ -1394,10 +1405,10 @@
  COLONIAL_MADAGASCAR_Madagascar:0 "Madagascar"
  COLONIAL_MADAGASCAR_Madagascar_ADJ:0 "Madagascan"
  #
- colonial_beafada:0 "Colonial Beafada"
- short_colonial_beafada:0 "Beafada"
- COLONIAL_BEAFADA_Beafada:0 "Beafada"
- COLONIAL_BEAFADA_Beafada_ADJ:0 "Beafadan"
+ colonial_bissau:0 "Colonial Bissau"
+ short_colonial_bissau:0 "Bissau"
+ COLONIAL_BISSAU_Bissau:0 "Bissau"
+ COLONIAL_BISSAU_Bissau_ADJ:0 "Bissauan"
  #
  colonial_papua:0 "Colonial Papua"
  short_colonial_papua:0 "Papua"
@@ -1424,6 +1435,11 @@
  COLONIAL_FIJI_Fiji:0 "Fiji"
  COLONIAL_FIJI_Fiji_ADJ:0 "Fijian"
  # 
+ colonial_jamaica:0 "Colonial Jamaica"
+ short_colonial_jamaica:0 "Jamaica"
+ COLONIAL_JAMAICA_Jamaica:0 "Jamaica"
+ COLONIAL_JAMAICA_Jamaica_ADJ:0 "Jamaican"
+ #
  #TRADE COMPANIES
  trade_company_porto_trade:0 "Commissariat of Portugal"
  TRADE_COMPANY_PORTO_Root_Culture_GetName:0 "[Root.Culture.GetName] Portuguese Commissariat"

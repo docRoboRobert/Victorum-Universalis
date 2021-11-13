@@ -1432,18 +1432,29 @@ indonesia_region = { #Eastern Indonesian/Malayan Islands.
 	}
 }
 
+papua_region = {
+	areas = {
+		papua_area
+		vogelkop_area
+	}
+	monsoon = {
+		00.07.01
+		00.10.30
+	}
+}
 
 oceanea_region = {
 	areas = {
-	  fiji_area #TCOP addition from EU4 1.31.2
+        fiji_area #TCOP addition from EU4 1.31.2
 		micronesia_area
 		melanesia_area
 		northern_polynesia_area
-		papua_area			#Moved from Moluccas
 		polynesia_area
-		vogelkop_area			#Moved from Moluccas
 		#BTADDITIONS
 		#tuamotus_area	#Empty Area
+		#VU Additions by San Felipe
+		vanuatu_area
+		new_caledonia_area
 	}
 	monsoon = {
 		00.07.01

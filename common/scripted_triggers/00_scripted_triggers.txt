@@ -1415,5 +1415,7 @@ is_volcanic_area = { #polynesia and indonesia
 		area = polynesia_area
 		area = melanesia_area
 		area = papua_area
+		area = vanuatu_area
+		area = new_caledonia_area
 	}
 }

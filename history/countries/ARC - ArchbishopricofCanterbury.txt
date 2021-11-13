@@ -1,5 +1,5 @@
 government = theocracy
-add_government_reform = theocratic_government
+add_government_reform = church_of_england_reform
 government_rank = 2
 primary_culture = english
 religion = catholic

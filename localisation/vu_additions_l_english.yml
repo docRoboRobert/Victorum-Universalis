@@ -904,7 +904,7 @@
  urban_philadelphia:0 "Philadelphia"
  urban_baltimore:0 "Baltimore"
  urban_pittsburgh:0 "Pittsburgh"
- urban_jamestown:0 "Jamestown"
+ urban_norfolk_va:0 "Norfolk"
  urban_charleston:0 "Charleston"
  urban_atlanta:0 "Atlanta"
  urban_st_augustine:0 "St.Augustine"
@@ -1162,7 +1162,8 @@
  urban_weifang:0 "Weifang"
  urban_baoding:0 "Baoding"
  urban_shijianzhuang:0 "Shijianzhuang"
- urban_shijianzhuang
+ urban_novogrudok:0 "Novogrudok"
+ urban_gilnockie:0 "Gilnockie"
  urban_tangshan:0 "Tangshan"
  urban_dalian:0 "Dalian"
  urban_incheon:0 "Incheon"

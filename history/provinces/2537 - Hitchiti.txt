@@ -1,4 +1,4 @@
-# No previous file for Hitchiti
+#2537 - Thronateeska 
 
 owner = ICH
 controller = ICH
@@ -6,7 +6,7 @@ add_core = ICH
 is_city = yes
 culture = yamasee
 religion = totemism
-capital = "Hitchiti"
+capital = "Thronateeska"
 trade_goods = cotton
 hre = no
 base_tax = 1 

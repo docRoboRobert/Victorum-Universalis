@@ -10,7 +10,7 @@ Numbered fixes:
 8. Ar-Ribat & El Araich no longer share the same city name.
 9. Fixed Castille forming Spain diplomatically without integrating Aragon by making it so the province limits are for the player only.
 11. Lolland-Kiel strait is now blockaded from The Belts as intended.
-12. Fixed country history files of Rheims, Vienne, Langres, Laon, Toul, Saint-Pol and Luxeuil to use ANSI encoding instead of UTF-8.
+12. Fixed country history files of Reims, Vienne, Langres, Laon, Toul, Saint-Pol and Luxeuil to use ANSI encoding instead of UTF-8.
 13. Forming Tuscany no longer kicks you out of the HRE.
 14. Forming Great Moravia will now kick you out of the HRE.
 17. Fixed Groningen starting with two cities by ceding Ommelanden to Frisia instead.
